@@ -19,16 +19,16 @@ namespace Naninovel
 
 
         /// <param name="dontDestroyOnLoad">Whether behaviour lifetime should be independent of the loaded Unity scenes.</param>
-        public static RuntimeBehaviour Create (bool dontDestroyOnLoad = true)
-        {
-            var go = new GameObject("Naninovel<Runtime>");
-            if (dontDestroyOnLoad)
-                DontDestroyOnLoad(go);
-            var behaviourComp = go.AddComponent<RuntimeBehaviour>();
-            behaviourComp.rootObject = go;
-            behaviourComp.monoBehaviour = behaviourComp;
-            return behaviourComp;
-        }
+        // public static RuntimeBehaviour Create (bool dontDestroyOnLoad = true)
+        // {
+        //     var go = new GameObject("Naninovel<Runtime>");
+        //     if (dontDestroyOnLoad)
+        //         DontDestroyOnLoad(go);
+        //     var behaviourComp = go.AddComponent<RuntimeBehaviour>();
+        //     behaviourComp.rootObject = go;
+        //     behaviourComp.monoBehaviour = behaviourComp;
+        //     return behaviourComp;
+        // }
 
         public GameObject GetRootObject () => rootObject;
 

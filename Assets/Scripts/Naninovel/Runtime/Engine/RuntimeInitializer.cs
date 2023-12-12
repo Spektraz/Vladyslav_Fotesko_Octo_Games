@@ -72,22 +72,22 @@ namespace Naninovel
             IEnumerable<ServiceInitializationData> GetDependencies (ServiceInitializationData d) => d.CtorArgs.Where(IsService).SelectMany(argType => initData.Where(dd => d != dd && argType.IsAssignableFrom(dd.Type)));
             initData = initData.OrderBy(d => d.Priority).TopologicalOrder(GetDependencies).ToList();
 
-            var behaviour = RuntimeBehaviour.Create(engineConfig.SceneIndependent);
-            var services = new List<IEngineService>();
-            var ctorParams = new List<object>();
-            foreach (var data in initData)
-            {
-                foreach (var argType in data.CtorArgs)
-                    if (IsService(argType)) ctorParams.Add(services.First(s => argType.IsInstanceOfType(s)));
-                    else if (IsBehaviour(argType)) ctorParams.Add(behaviour);
-                    else if (IsConfig(argType)) ctorParams.Add(configurationProvider.GetConfiguration(argType));
-                    else throw new Error($"Only `{nameof(Configuration)}`, `{nameof(IEngineBehaviour)}` and `{nameof(IEngineService)}` with an `{nameof(InitializeAtRuntimeAttribute)}` can be requested in an engine service constructor.");
-                var service = Activator.CreateInstance(data.Type, ctorParams.ToArray()) as IEngineService;
-                services.Add(service);
-                ctorParams.Clear();
-            }
+            // var behaviour = RuntimeBehaviour.Create(engineConfig.SceneIndependent);
+            // var services = new List<IEngineService>();
+            // var ctorParams = new List<object>();
+            // foreach (var data in initData)
+            // {
+            //     foreach (var argType in data.CtorArgs)
+            //         if (IsService(argType)) ctorParams.Add(services.First(s => argType.IsInstanceOfType(s)));
+            //         else if (IsBehaviour(argType)) ctorParams.Add(behaviour);
+            //         else if (IsConfig(argType)) ctorParams.Add(configurationProvider.GetConfiguration(argType));
+            //         else throw new Error($"Only `{nameof(Configuration)}`, `{nameof(IEngineBehaviour)}` and `{nameof(IEngineService)}` with an `{nameof(InitializeAtRuntimeAttribute)}` can be requested in an engine service constructor.");
+            //     var service = Activator.CreateInstance(data.Type, ctorParams.ToArray()) as IEngineService;
+            //     services.Add(service);
+            //     ctorParams.Clear();
+            // }
 
-            await Engine.InitializeAsync(configurationProvider, behaviour, services);
+           // await Engine.InitializeAsync(configurationProvider, behaviour, services);
             if (!Engine.Initialized) // In case terminated in the midst of initialization.
             {
                 if (initializationUI)

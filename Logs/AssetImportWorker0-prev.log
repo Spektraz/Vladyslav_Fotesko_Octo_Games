@@ -1,0 +1,1414 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.27f1 (e759542391ea) revision 15161684'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ru' Physical Memory: 32605 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56956
+Successfully changed project path to: D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games
+D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 41.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti (ID=0x2782)
+    Vendor:   
+    VRAM:     12010 MB
+    Driver:   31.0.15.4601
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001250 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 68.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.375 seconds
+Domain Reload Profiling:
+	ReloadAssembly (375ms)
+		BeginReloadAssembly (40ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (299ms)
+			LoadAssemblies (38ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (65ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (138ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (43ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004822 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+DisplayProgressbar: Generating Metadata
+Mono: successfully reloaded assembly
+- Completed reload, in  1.656 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1657ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (1522ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (1029ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (775ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.0 MB.
+System memory in use after: 128.2 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3689.
+Total: 2.420000 ms (FindLiveObjects: 0.125500 ms CreateObjectMapping: 0.036500 ms MarkObjects: 2.162700 ms  DeleteObjects: 0.094300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/NaninovelSpreadsheet/Editor/Elringus.Naninovel.Spreadsheet.Editor.asmdef
+  artifactKey: Guid(519e3942c5f1829458201ac1b0dbe8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NaninovelSpreadsheet/Editor/Elringus.Naninovel.Spreadsheet.Editor.asmdef using Guid(519e3942c5f1829458201ac1b0dbe8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57aad6e7be98d3748f8ef44e8cd48d8') in 0.017793 seconds 
+  Import took 0.020636 seconds .
+
+12.12.2023 15:01:24|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011020 seconds.
+Begin MonoManager ReloadAssembly
+12.12.2023 15:01:26|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|
+12.12.2023 15:01:26|Fatal|WebSocketServer.receiveRequest|
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.964 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1964ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (153ms)
+		EndReloadAssembly (1656ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1083ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (756ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3244 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.0 MB.
+System memory in use after: 126.2 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3695.
+Total: 2.602000 ms (FindLiveObjects: 0.186100 ms CreateObjectMapping: 0.070200 ms MarkObjects: 2.326300 ms  DeleteObjects: 0.018700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15.026491 seconds.
+  path: Assets/NaninovelData/EditorResources.asset
+  artifactKey: Guid(77965f6b12df30544b607f33f9a0c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NaninovelData/EditorResources.asset using Guid(77965f6b12df30544b607f33f9a0c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d97e450cb5265780be5e9fc3f5248a') in 0.013421 seconds 
+  Import took 0.016364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.472762 seconds.
+  path: Assets/NaninovelData/Resources/Naninovel/Configuration/ChoiceHandlersConfiguration.asset
+  artifactKey: Guid(ca82d7e4ccf8cb44193942df418fd0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NaninovelData/Resources/Naninovel/Configuration/ChoiceHandlersConfiguration.asset using Guid(ca82d7e4ccf8cb44193942df418fd0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38738d368202f6c7fb8f958f0f8f364e') in 0.007217 seconds 
+  Import took 0.010202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/NaninovelData/Resources/Naninovel/Configuration/TextPrintersConfiguration.asset
+  artifactKey: Guid(011aba61e0ca25d4fa0d2bb4a29d08c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NaninovelData/Resources/Naninovel/Configuration/TextPrintersConfiguration.asset using Guid(011aba61e0ca25d4fa0d2bb4a29d08c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d51d6b2fdfeed5c7fccd8a718e8a44') in 0.006215 seconds 
+  Import took 0.008639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.722843 seconds.
+  path: Assets/NaninovelData
+  artifactKey: Guid(d29d0b7b34a957e46b7a23e94b017aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NaninovelData using Guid(d29d0b7b34a957e46b7a23e94b017aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba3313a4ab72037a237c4eff522f972') in 0.005900 seconds 
+  Import took 0.008736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073732 seconds.
+  path: Assets/NaninovelData/EditorResources.asset
+  artifactKey: Guid(bdfa9d96c31aa264fa7e193b427bc819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NaninovelData/EditorResources.asset using Guid(bdfa9d96c31aa264fa7e193b427bc819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3fbe7d5a6bfcc24170bd60a0e2f57b') in 0.001737 seconds 
+  Import took 0.004508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.527068 seconds.
+  path: Assets/Naninovel
+  artifactKey: Guid(aec87be22ac99b9459e2130a9f3a87af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel using Guid(aec87be22ac99b9459e2130a9f3a87af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0325f39efaed16c6fa44a0c7f7651648') in 0.006062 seconds 
+  Import took 0.009382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.849232 seconds.
+  path: Assets/Naninovel/Editor
+  artifactKey: Guid(febf08d9d340a454b94edb4e59a07a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor using Guid(febf08d9d340a454b94edb4e59a07a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27dc57e4d3c1b2d1ce372283dcece6b7') in 0.006276 seconds 
+  Import took 0.009305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070135 seconds.
+  path: Assets/Naninovel/Editor/Elringus.Naninovel.Editor.asmdef
+  artifactKey: Guid(299f0e1d2253c7f42906a1f24d2d2eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Elringus.Naninovel.Editor.asmdef using Guid(299f0e1d2253c7f42906a1f24d2d2eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed86f01f4f301d97670d13443a171580') in 0.005622 seconds 
+  Import took 0.008520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.606295 seconds.
+  path: Assets/Naninovel/Editor/Bridging
+  artifactKey: Guid(60484fdf97984475b9da74426c611df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Bridging using Guid(60484fdf97984475b9da74426c611df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b243ac3d3373780cbb0253185608108') in 0.005832 seconds 
+  Import took 0.008801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.486428 seconds.
+  path: Assets/Naninovel/Editor/Common
+  artifactKey: Guid(975b83fd6ee53bc4b8fa6a5086fb1ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Common using Guid(975b83fd6ee53bc4b8fa6a5086fb1ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb888aab572336a24f6d1dbf24c0093') in 0.006093 seconds 
+  Import took 0.008951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.333657 seconds.
+  path: Assets/Naninovel/Editor/Build
+  artifactKey: Guid(26b1a7e4e65c40bcbd7dcce11321c33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Build using Guid(26b1a7e4e65c40bcbd7dcce11321c33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e84c10a9facd06ef30dca43afdf758') in 0.005990 seconds 
+  Import took 0.008669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.263238 seconds.
+  path: Assets/Naninovel/Editor/Editors
+  artifactKey: Guid(8305def23bf74eef9e0da335666ff198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Editors using Guid(8305def23bf74eef9e0da335666ff198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce033ef1708e8c3fcc76761583e2d228') in 0.005991 seconds 
+  Import took 0.009036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.673122 seconds.
+  path: Assets/Naninovel/Editor/Editors/Drawers
+  artifactKey: Guid(e48313ee92f3453aaa822dcfbc8cd47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Editors/Drawers using Guid(e48313ee92f3453aaa822dcfbc8cd47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2485d71d300c3276b7b0c7da38ba6be') in 0.005964 seconds 
+  Import took 0.008798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.716306 seconds.
+  path: Assets/Naninovel/Editor/Engine
+  artifactKey: Guid(f41cb0ea882f452d9f1d2783a5fc05d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Engine using Guid(f41cb0ea882f452d9f1d2783a5fc05d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23ff858f8967c19ac64a9ccc996bbde') in 0.006095 seconds 
+  Import took 0.009127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.446445 seconds.
+  path: Assets/Naninovel/Editor/Project
+  artifactKey: Guid(1544e2af78784a0ebb422c1f96474ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Project using Guid(1544e2af78784a0ebb422c1f96474ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff8b8de76ec10e070182c97c27546e2') in 0.007551 seconds 
+  Import took 0.010374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.326619 seconds.
+  path: Assets/Naninovel/Editor/Resources
+  artifactKey: Guid(ac48b53048349dc46b13dc254213715c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Resources using Guid(ac48b53048349dc46b13dc254213715c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271046ed7eb69c6d5165fe9a0800bd68') in 0.005814 seconds 
+  Import took 0.008664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.867173 seconds.
+  path: Assets/Naninovel/Editor/Resources/Searcher
+  artifactKey: Guid(d4b11bbb99e110c4aa30243f92065c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Resources/Searcher using Guid(d4b11bbb99e110c4aa30243f92065c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1faaa7ea3aaca613870dcee8071a8d18') in 0.006038 seconds 
+  Import took 0.009073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084232 seconds.
+  path: Assets/Naninovel/Editor/Resources/Searcher/Searcher.uss
+  artifactKey: Guid(6a89c46a8f068c744956a9d0155910b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Resources/Searcher/Searcher.uss using Guid(6a89c46a8f068c744956a9d0155910b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca5089a87be3214c3517575ef3b6c2f') in 0.008334 seconds 
+  Import took 0.012303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Naninovel/Editor/Resources/Searcher/SearchSmallDownOn.png
+  artifactKey: Guid(acd3d1fa6d2a7ac4e99225ec16cf3112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Resources/Searcher/SearchSmallDownOn.png using Guid(acd3d1fa6d2a7ac4e99225ec16cf3112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c332c3c2372ad65508b4762a46bed67') in 0.036201 seconds 
+  Import took 0.038818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Naninovel/Editor/Resources/Searcher/SearcherItem.uxml
+  artifactKey: Guid(fa0e414b2fba33e48b56cc83ee793739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Resources/Searcher/SearcherItem.uxml using Guid(fa0e414b2fba33e48b56cc83ee793739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68601f8b0bd0ffe5237cb321238ea67') in 0.008749 seconds 
+  Import took 0.011822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Naninovel/Editor/Resources/Searcher/SearcherWindow.uxml
+  artifactKey: Guid(ee3f6d3c7cd51ae40957c1fdf06eff29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Resources/Searcher/SearcherWindow.uxml using Guid(ee3f6d3c7cd51ae40957c1fdf06eff29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9b4569f0346e74f6f5ed8f49753800') in 0.005643 seconds 
+  Import took 0.008304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Naninovel/Editor/Resources/Searcher/SearchSmallDownOff.png
+  artifactKey: Guid(62cfb82b10d6705419a2b0b0ca65b166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Resources/Searcher/SearchSmallDownOff.png using Guid(62cfb82b10d6705419a2b0b0ca65b166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88447008e0b3c340167ec3f6bc507b68') in 0.008156 seconds 
+  Import took 0.010568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Naninovel/Editor/Resources/Searcher/SearchSmallDownOn@2x.png
+  artifactKey: Guid(add5a26bbd77a5248ad23c7747063205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Resources/Searcher/SearchSmallDownOn@2x.png using Guid(add5a26bbd77a5248ad23c7747063205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4846cde54786c1231f9f77c6cccad339') in 0.010630 seconds 
+  Import took 0.013250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Naninovel/Editor/Resources/Searcher/SearchSmallDownOff@2x.png
+  artifactKey: Guid(a7a9aa5aea6fe8a42a0c9fab90d7e8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Resources/Searcher/SearchSmallDownOff@2x.png using Guid(a7a9aa5aea6fe8a42a0c9fab90d7e8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5772d6541d0b6def634b2739b1e316f') in 0.016709 seconds 
+  Import took 0.019411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.645997 seconds.
+  path: Assets/Naninovel/Editor/Resources/Naninovel
+  artifactKey: Guid(0b145f3c1c959e0449c62c44b4e07ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Resources/Naninovel using Guid(0b145f3c1c959e0449c62c44b4e07ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8952b9cfc42cc52bdddd8e420e6a1085') in 0.001501 seconds 
+  Import took 0.004414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055578 seconds.
+  path: Assets/Naninovel/Editor/Resources/Naninovel/EditMetaIcon.png
+  artifactKey: Guid(1d21c82c32ad8bb44a97a5a2b1a9042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Resources/Naninovel/EditMetaIcon.png using Guid(1d21c82c32ad8bb44a97a5a2b1a9042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f9f2f43e4e398c0194c9665f408937') in 0.007619 seconds 
+  Import took 0.010268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Naninovel/Editor/Resources/Naninovel/ScriptEditor.uss
+  artifactKey: Guid(406e7d368ed82b1448d2cd608f05c2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Resources/Naninovel/ScriptEditor.uss using Guid(406e7d368ed82b1448d2cd608f05c2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33dab0dbe89d22240cc9ed2deaf20a1') in 0.005821 seconds 
+  Import took 0.008549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Naninovel/Editor/Resources/Naninovel/NaninovelLogo.png
+  artifactKey: Guid(0f4979b91c2d36643985779d0febf485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Resources/Naninovel/NaninovelLogo.png using Guid(0f4979b91c2d36643985779d0febf485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea3b9aaa7ca610fd151919ea239d1e5') in 0.009340 seconds 
+  Import took 0.011954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Naninovel/Editor/Resources/Naninovel/ScriptAssetIcon.png
+  artifactKey: Guid(9da49eee11ae88942b4a1334e29da344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Resources/Naninovel/ScriptAssetIcon.png using Guid(9da49eee11ae88942b4a1334e29da344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46dfc69c466961400813b3ca4bea857f') in 0.007140 seconds 
+  Import took 0.009638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Naninovel/Editor/Resources/Naninovel/ScriptGotoIcon.png
+  artifactKey: Guid(71e9b79073404804db0c09282d9bcb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Resources/Naninovel/ScriptGotoIcon.png using Guid(71e9b79073404804db0c09282d9bcb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be132d587199b1f31d5374b4c1dc61f1') in 0.007110 seconds 
+  Import took 0.009789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Naninovel/Editor/Resources/Naninovel/ScriptGraph.uss
+  artifactKey: Guid(9233b081435961944ae01e206146b1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Resources/Naninovel/ScriptGraph.uss using Guid(9233b081435961944ae01e206146b1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f683c61d8cf987d252a81a524ed8dae') in 0.004169 seconds 
+  Import took 0.006624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Naninovel/Editor/Resources/Naninovel/ScriptEditorDark.uss
+  artifactKey: Guid(3bbed123c62dd7c42827552c795fad82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Resources/Naninovel/ScriptEditorDark.uss using Guid(3bbed123c62dd7c42827552c795fad82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09abc44009baafb8eab9212591a6125d') in 0.004206 seconds 
+  Import took 0.006778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.170953 seconds.
+  path: Assets/Naninovel/Editor/Script
+  artifactKey: Guid(62feb800611c4079a6867d350ecc50ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Script using Guid(62feb800611c4079a6867d350ecc50ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3949b9eaf622ed24ae1e4537737c823d') in 0.005896 seconds 
+  Import took 0.008972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.857126 seconds.
+  path: Assets/Naninovel/Editor/Tools
+  artifactKey: Guid(1368e61a6b77a214cb7fbf83dcea0163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Editor/Tools using Guid(1368e61a6b77a214cb7fbf83dcea0163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5848acb4a4d44499bbd105427fa1429') in 0.005688 seconds 
+  Import took 0.008897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.729144 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75b7d1a31c5b4f73fd45661b403b04') in 0.006869 seconds 
+  Import took 0.010222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.061330 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack
+  artifactKey: Guid(6622df5d0963bfe45a6f2c738c33226e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack using Guid(6622df5d0963bfe45a6f2c738c33226e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f33504e206efbf754c5b29d57a0f7d') in 0.005831 seconds 
+  Import took 0.008901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.976290 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources
+  artifactKey: Guid(a54f0a62b9cba4f4389a6235ea173cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources using Guid(a54f0a62b9cba4f4389a6235ea173cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f229a90230f42cf2b61072d9278dc4d8') in 0.016679 seconds 
+  Import took 0.027752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.543741 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Audio
+  artifactKey: Guid(e5897595e0d15b24aa05260d59a55740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Audio using Guid(e5897595e0d15b24aa05260d59a55740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f87d4bbac22687f6ac28d2e23571357') in 0.006972 seconds 
+  Import took 0.011175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015184 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Audio/Audio_a.wav
+  artifactKey: Guid(604588be2879c0243a2739eb5c6e434e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Audio/Audio_a.wav using Guid(604588be2879c0243a2739eb5c6e434e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f855d0a3d7b4f94045c65e2a3b7ced89') in 0.055156 seconds 
+  Import took 0.058911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.476489 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Fonts
+  artifactKey: Guid(4eb02ceb44817e844b4c4ab091504c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Fonts using Guid(4eb02ceb44817e844b4c4ab091504c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c2b6edb08d9fa9cee6a514d753730d') in 0.005765 seconds 
+  Import took 0.009043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084842 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Fonts/Aldrich-Regular.ttf
+  artifactKey: Guid(db1c041975bd160499e0b233c7b95e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Fonts/Aldrich-Regular.ttf using Guid(db1c041975bd160499e0b233c7b95e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b292b3e506c3c9506cbe33192496783a') in 0.027470 seconds 
+  Import took 0.030461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Fonts/LaborUnion-Regular.otf
+  artifactKey: Guid(00dfe23bef44aac43a19a11cd7f6a743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Fonts/LaborUnion-Regular.otf using Guid(00dfe23bef44aac43a19a11cd7f6a743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4558c518c4932f1819bd7f01c6799937') in 0.019516 seconds 
+  Import took 0.022160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Fonts/VioletSans-Regular.ttf
+  artifactKey: Guid(aea742108737d4146a82ab2580f64dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Fonts/VioletSans-Regular.ttf using Guid(aea742108737d4146a82ab2580f64dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8243cbc575bbb8e042f2c0b54f9110e') in 0.015391 seconds 
+  Import took 0.018110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Fonts/CIND.otf
+  artifactKey: Guid(a4a1c19c2e2c58c4ea3e548e83478bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Fonts/CIND.otf using Guid(a4a1c19c2e2c58c4ea3e548e83478bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b90f9bfe9776faa136470545b82484') in 0.014069 seconds 
+  Import took 0.016667 seconds .
+
+12.12.2023 15:02:36|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004373 seconds.
+Begin MonoManager ReloadAssembly
+12.12.2023 15:02:37|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|
+12.12.2023 15:02:37|Fatal|WebSocketServer.receiveRequest|
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.359 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1359ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (1137ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (815ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (639ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3244 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.4 MB.
+System memory in use after: 129.6 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3754.
+Total: 1.882600 ms (FindLiveObjects: 0.109700 ms CreateObjectMapping: 0.033800 ms MarkObjects: 1.724900 ms  DeleteObjects: 0.013700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6.854494 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs
+  artifactKey: Guid(533a57569b00a9c488fef70ed0cb6b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs using Guid(533a57569b00a9c488fef70ed0cb6b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a572e1c683fbc59bda22fcd7e533303c') in 0.014191 seconds 
+  Import took 0.017145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058563 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/1DailyRewards Canvas.prefab
+  artifactKey: Guid(8b2513e6bb6497d4da3a70f918246546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/1DailyRewards Canvas.prefab using Guid(8b2513e6bb6497d4da3a70f918246546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abc2d56721d6092c2bdad10c0b3c341') in 0.028970 seconds 
+  Import took 0.032473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/3MapSelect Canvas.prefab
+  artifactKey: Guid(1118c282d072cd14eb887ad872066cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/3MapSelect Canvas.prefab using Guid(1118c282d072cd14eb887ad872066cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cde9d1431f6709d2d6951b8a3de0bc9') in 0.018340 seconds 
+  Import took 0.021410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/6Pause Canvas.prefab
+  artifactKey: Guid(94486f393e2048a49a44a90504670fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/6Pause Canvas.prefab using Guid(94486f393e2048a49a44a90504670fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c22a6bd7c52c0467429ae3813dbbed') in 0.009340 seconds 
+  Import took 0.012009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/5Scene2 Canvas.prefab
+  artifactKey: Guid(be831a73db25df94eb2df4cd3d370455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/5Scene2 Canvas.prefab using Guid(be831a73db25df94eb2df4cd3d370455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3ff4a60747ae0a9534cdc1996081c9') in 0.016401 seconds 
+  Import took 0.019390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/8Missions Canvas.prefab
+  artifactKey: Guid(cbe7d1fcc7fb46540908a8888266f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/8Missions Canvas.prefab using Guid(cbe7d1fcc7fb46540908a8888266f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881f1dc1d3e3c900788005db8548ed64') in 0.013443 seconds 
+  Import took 0.016467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/Components1 Canvas.prefab
+  artifactKey: Guid(9ead8e46b08a11e489c21d61d65bf320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/Components1 Canvas.prefab using Guid(9ead8e46b08a11e489c21d61d65bf320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b5a3c9887fbcee5e9c422d891eb03c') in 0.014430 seconds 
+  Import took 0.017272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/4Scene1 Canvas.prefab
+  artifactKey: Guid(c31583b6fe6b9624e9302647130ef1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/4Scene1 Canvas.prefab using Guid(c31583b6fe6b9624e9302647130ef1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79314193fe5b4e6b2206905579eb8073') in 0.009765 seconds 
+  Import took 0.012526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/2MainMenu Canvas.prefab
+  artifactKey: Guid(68b02d2ec054f7e4a8035769d7883289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/2MainMenu Canvas.prefab using Guid(68b02d2ec054f7e4a8035769d7883289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d094930bc91c0d402215eda9b0b058') in 0.009792 seconds 
+  Import took 0.012569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/ButtonAudio.prefab
+  artifactKey: Guid(63acd9df19e390c4a82b6bf28f006876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/ButtonAudio.prefab using Guid(63acd9df19e390c4a82b6bf28f006876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e6a5a00ccb86782ce5fda468aeeaa2') in 0.005223 seconds 
+  Import took 0.007884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/10Character Canvas.prefab
+  artifactKey: Guid(2193036cf5effd74097b61fa15be7c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/10Character Canvas.prefab using Guid(2193036cf5effd74097b61fa15be7c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15617cf9339cdffc171dba14056cdc4e') in 0.016688 seconds 
+  Import took 0.019913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/12Victory Canvas.prefab
+  artifactKey: Guid(859916b2f3f2be54baa9de27fccfb812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/12Victory Canvas.prefab using Guid(859916b2f3f2be54baa9de27fccfb812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1569d4a7e057ca8b02a56aa6e3feb729') in 0.007123 seconds 
+  Import took 0.009833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/14GameOver Canvas.prefab
+  artifactKey: Guid(c93b7533cdc633a4091a7dfec6631f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/14GameOver Canvas.prefab using Guid(c93b7533cdc633a4091a7dfec6631f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccc0c853cc08fcfd7bc3c04317c17ed') in 0.007504 seconds 
+  Import took 0.010179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/9Shop Canvas.prefab
+  artifactKey: Guid(ec477a11f62eb4e4f94a8d6bc736f26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/9Shop Canvas.prefab using Guid(ec477a11f62eb4e4f94a8d6bc736f26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a201cc451194d5fc8d6afa52f2bfc60e') in 0.014330 seconds 
+  Import took 0.017283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/7Options Canvas.prefab
+  artifactKey: Guid(2009795e0dbe7c54181bdffdfd4d1486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/7Options Canvas.prefab using Guid(2009795e0dbe7c54181bdffdfd4d1486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355f3131a2b45ff056b0c9f6b8e4b85b') in 0.013249 seconds 
+  Import took 0.016186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/11Popup Canvas.prefab
+  artifactKey: Guid(b85e7e35da7e54e4b9e8a716e9eb3528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/11Popup Canvas.prefab using Guid(b85e7e35da7e54e4b9e8a716e9eb3528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65d51752b38bb64c479249b78a88631') in 0.007570 seconds 
+  Import took 0.010381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/13Rewards Canvas.prefab
+  artifactKey: Guid(181618bc1f9739e4589c45f1d366888f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/13Rewards Canvas.prefab using Guid(181618bc1f9739e4589c45f1d366888f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6ac64784c93de1b512f909cfa1eae3') in 0.007371 seconds 
+  Import took 0.010350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/Components2 Canvas.prefab
+  artifactKey: Guid(54849eaa8f2dd634cb4b637794c715af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/Components2 Canvas.prefab using Guid(54849eaa8f2dd634cb4b637794c715af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b72b2fe2abdb6a60c5d11ec7beda6d5') in 0.019187 seconds 
+  Import took 0.022379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.834610 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews
+  artifactKey: Guid(2d0f11ebfa8094f43b574ead27a42c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews using Guid(2d0f11ebfa8094f43b574ead27a42c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca42c4ce15367c7b96fafc41bb0b85f') in 0.005973 seconds 
+  Import took 0.009152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087584 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/1DailyRewards.png
+  artifactKey: Guid(16458c36b288d1a43b7b67198e7f6206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/1DailyRewards.png using Guid(16458c36b288d1a43b7b67198e7f6206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf07d2a97504f2e5b91f430afa45033') in 0.024590 seconds 
+  Import took 0.027695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/5Scene2.png
+  artifactKey: Guid(106067159eb4428419e6d2b2bc634e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/5Scene2.png using Guid(106067159eb4428419e6d2b2bc634e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee72121947081bd9ddd4f30cbd5a3ce') in 0.016735 seconds 
+  Import took 0.019356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/12Victory.png
+  artifactKey: Guid(a9f076e227d8eba40896d80e1cfe0cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/12Victory.png using Guid(a9f076e227d8eba40896d80e1cfe0cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360b1cd5e1ad8afd52fb846f79d266d6') in 0.015195 seconds 
+  Import took 0.018112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/6Pause.png
+  artifactKey: Guid(c299788cb734f65418ecaf520e8e6474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/6Pause.png using Guid(c299788cb734f65418ecaf520e8e6474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e8eef30bb09a4247fa2b4a27ce98ae') in 0.022348 seconds 
+  Import took 0.025188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/Components1.png
+  artifactKey: Guid(94ca0b16f4621dc4dac5fa8effb502b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/Components1.png using Guid(94ca0b16f4621dc4dac5fa8effb502b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83501dc72c5074a9e1cfc49819bf4e1') in 0.017181 seconds 
+  Import took 0.019972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/3MapSelect.png
+  artifactKey: Guid(d99a1f0bdf243be458b1cad1820e969d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/3MapSelect.png using Guid(d99a1f0bdf243be458b1cad1820e969d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6546ad43a99ae5ceedadd9d6016148d') in 0.020085 seconds 
+  Import took 0.023022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/7Options.png
+  artifactKey: Guid(89fc4c327c474574eb03062def762e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/7Options.png using Guid(89fc4c327c474574eb03062def762e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798fc03b36ebe33ce7d026fb93e36a3e') in 0.023295 seconds 
+  Import took 0.026142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/8Missions.png
+  artifactKey: Guid(73a79cba567675646b7031c59cae2dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/8Missions.png using Guid(73a79cba567675646b7031c59cae2dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4585c22a759931ef81340abbc248cef8') in 0.022840 seconds 
+  Import took 0.025580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/14GameOver.png
+  artifactKey: Guid(2f331e675411e5e4ca93b147922a1a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/14GameOver.png using Guid(2f331e675411e5e4ca93b147922a1a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8226924a2398d4b26077bf28febe6b95') in 0.016293 seconds 
+  Import took 0.019225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/9Shop.png
+  artifactKey: Guid(c19b53790cb25e146b537e133da2050f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/9Shop.png using Guid(c19b53790cb25e146b537e133da2050f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed290534e25a4965e8b0f7dfda932b3') in 0.018881 seconds 
+  Import took 0.021907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/10Character.png
+  artifactKey: Guid(cc4399d02c3fe1c488950f9df2bbb67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/10Character.png using Guid(cc4399d02c3fe1c488950f9df2bbb67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409aa66e25a2deea6b85c31ba34285c3') in 0.013841 seconds 
+  Import took 0.016607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/Components2.png
+  artifactKey: Guid(2df3d3e2e591c724bbc905caf9c39b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/Components2.png using Guid(2df3d3e2e591c724bbc905caf9c39b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda50b3eb563ab2ccf1bba613835e9e1') in 0.017718 seconds 
+  Import took 0.020857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/2MainMenu.png
+  artifactKey: Guid(2426f4d47efc0b64a83cc30170c9358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/2MainMenu.png using Guid(2426f4d47efc0b64a83cc30170c9358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41000e1e43e8a4fcf3b2a1d688efe0a') in 0.020109 seconds 
+  Import took 0.022866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/11Popup.png
+  artifactKey: Guid(6cdb9b5ab382a654ba3ab13cae09efe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/11Popup.png using Guid(6cdb9b5ab382a654ba3ab13cae09efe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93cc0291271d60aa046f3c2ad36efe52') in 0.016318 seconds 
+  Import took 0.019279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/13Reward.png
+  artifactKey: Guid(41b4fd84952f0f14f83e10490c85f311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/13Reward.png using Guid(41b4fd84952f0f14f83e10490c85f311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84ed99f5cd52020ab534c98c1293f20') in 0.018919 seconds 
+  Import took 0.021627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/4Scene1.png
+  artifactKey: Guid(7722502fa11e7ef46a476690a1029524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/4Scene1.png using Guid(7722502fa11e7ef46a476690a1029524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7540b73d5046b4f7307636008b44e1') in 0.019017 seconds 
+  Import took 0.021742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.195271 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/PsdFiles
+  artifactKey: Guid(13d3a0a40275a3f469326a2b746fa48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/PsdFiles using Guid(13d3a0a40275a3f469326a2b746fa48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73a47b49c21cf020ac3408f2c6c4ec7') in 0.005970 seconds 
+  Import took 0.009050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.145518 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/PsdFiles/PSD_Source01.psd
+  artifactKey: Guid(289ec3bde924c3842a33ea4519685a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/PsdFiles/PSD_Source01.psd using Guid(289ec3bde924c3842a33ea4519685a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6c045676567ae3133aba995ceea930') in 0.009793 seconds 
+  Import took 0.013309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/PsdFiles/PSD_Source03.psd
+  artifactKey: Guid(e5807f94548d5694b80b3613bb39e1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/PsdFiles/PSD_Source03.psd using Guid(e5807f94548d5694b80b3613bb39e1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc752f9990bdca201e14b4ca5e121f3') in 0.011808 seconds 
+  Import took 0.014612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/PsdFiles/PSD_Source02.psd
+  artifactKey: Guid(3a28c40a9b0fc9b4dbbe3e1aa8d3d6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/PsdFiles/PSD_Source02.psd using Guid(3a28c40a9b0fc9b4dbbe3e1aa8d3d6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78aca0ad5a70c2ca8ebce50cd81a07f0') in 0.010467 seconds 
+  Import took 0.013400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.465282 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Scripts
+  artifactKey: Guid(977de959f1385dd47b7de4e0e6251999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Scripts using Guid(977de959f1385dd47b7de4e0e6251999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc13b5622eb7a1d715ae38c5432ddda9') in 0.005599 seconds 
+  Import took 0.008591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.996857 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Scripts/CircleSlider.cs
+  artifactKey: Guid(22004f8c622faff4ea5c496efec23c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Scripts/CircleSlider.cs using Guid(22004f8c622faff4ea5c496efec23c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5de354061a40485d14bcdf806713d5') in 0.008525 seconds 
+  Import took 0.011598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.751262 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Scripts/JustRotate.cs
+  artifactKey: Guid(240a24bdc9b04c449a01876f63e0f5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Scripts/JustRotate.cs using Guid(240a24bdc9b04c449a01876f63e0f5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b503bd159359ffd4350153f34a1ffc') in 0.007235 seconds 
+  Import took 0.010449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.295227 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Scripts/PlayAudio.cs
+  artifactKey: Guid(59d0ce3298766c044aeb12b6afa2461e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Scripts/PlayAudio.cs using Guid(59d0ce3298766c044aeb12b6afa2461e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca363f052de1670cb46f5b287c041cd') in 0.005742 seconds 
+  Import took 0.008581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.877413 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Scripts/PressedBtn.cs
+  artifactKey: Guid(2906d065d842fa24a8f40510ac152bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Scripts/PressedBtn.cs using Guid(2906d065d842fa24a8f40510ac152bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdac48b1b6288ec26f8e43a28919a70') in 0.005866 seconds 
+  Import took 0.008940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.926307 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Scripts/SliderRunTo1.cs
+  artifactKey: Guid(baa5feb48833a4149ba50dea4cc8171f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Scripts/SliderRunTo1.cs using Guid(baa5feb48833a4149ba50dea4cc8171f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5ad15dd4f3551374da96978e10ae34') in 0.006917 seconds 
+  Import took 0.010225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.079869 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Scripts/SliderValuePass.cs
+  artifactKey: Guid(ab4d736e1156bab4388cd515e9928b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Scripts/SliderValuePass.cs using Guid(ab4d736e1156bab4388cd515e9928b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7d3d7e3c80e4ba2f3d3d980076fa1a') in 0.005988 seconds 
+  Import took 0.008989 seconds .
+
+12.12.2023 15:03:24|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004395 seconds.
+Begin MonoManager ReloadAssembly
+12.12.2023 15:03:26|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|
+12.12.2023 15:03:26|Fatal|WebSocketServer.receiveRequest|
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.353 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1354ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (1132ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (810ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (631ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3238 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3759.
+Total: 1.886600 ms (FindLiveObjects: 0.117500 ms CreateObjectMapping: 0.036200 ms MarkObjects: 1.710700 ms  DeleteObjects: 0.021600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8.479627 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements
+  artifactKey: Guid(e7a826e62e1e524438eb5690f76e0327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements using Guid(e7a826e62e1e524438eb5690f76e0327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe908388700d712651b23cbc951f544') in 0.007260 seconds 
+  Import took 0.010122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053661 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards
+  artifactKey: Guid(b29c9a2d40d16d54a9effa8c0c142d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards using Guid(b29c9a2d40d16d54a9effa8c0c142d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa2f9e3a892e2139ea3a5901eef7457') in 0.001412 seconds 
+  Import took 0.004288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080917 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/7Rewards.png
+  artifactKey: Guid(707bd9455ffd10244ba55d7f42d8e694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/7Rewards.png using Guid(707bd9455ffd10244ba55d7f42d8e694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2498271cbe92ef98d3a2c9ac16ed51b9') in 0.025911 seconds 
+  Import took 0.028781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/RewardsTitleLine.png
+  artifactKey: Guid(2ef7c85f3de8c8e4f97a9894bbd2f4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/RewardsTitleLine.png using Guid(2ef7c85f3de8c8e4f97a9894bbd2f4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fcc9970c767a66dcf89dd663406773') in 0.008378 seconds 
+  Import took 0.011222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/bg_DayRewards_Light.png
+  artifactKey: Guid(7d1cc36291a6de34a9924d434c45f936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/bg_DayRewards_Light.png using Guid(7d1cc36291a6de34a9924d434c45f936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d4e84e9e1d99c3afc216c4e01416b5') in 0.012962 seconds 
+  Import took 0.015593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/Icon_LightArrow.png
+  artifactKey: Guid(c766d60b67904014ab78d1d8a5dccd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/Icon_LightArrow.png using Guid(c766d60b67904014ab78d1d8a5dccd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41863853447f0ee0b1c6301037f5a8a2') in 0.011699 seconds 
+  Import took 0.014339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/Btn_Close0_n.png
+  artifactKey: Guid(e5e579213c5f0e64a8af6793a6f1cb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/Btn_Close0_n.png using Guid(e5e579213c5f0e64a8af6793a6f1cb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45a2d6f94c795e1845d6c964f03b1d8') in 0.010636 seconds 
+  Import took 0.013564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/bg_DayRewards_n.png
+  artifactKey: Guid(a8651755e27a8d1468508fa78a115a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/bg_DayRewards_n.png using Guid(a8651755e27a8d1468508fa78a115a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e664bee983344af7c9e2183f3524c91b') in 0.010049 seconds 
+  Import took 0.012862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/Icon_Squares.png
+  artifactKey: Guid(ee4ef46700cd429418f820f50c44c788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/Icon_Squares.png using Guid(ee4ef46700cd429418f820f50c44c788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baea7a533afdd8cc35ca66099b292604') in 0.009883 seconds 
+  Import took 0.012703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/Btn_Close0_p.png
+  artifactKey: Guid(f14aa8d0caac25d48ad002caae932284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/Btn_Close0_p.png using Guid(f14aa8d0caac25d48ad002caae932284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f678435b878184b1b08d153579b7b9') in 0.009264 seconds 
+  Import took 0.011910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/Emit light.png
+  artifactKey: Guid(45b3a0bafc716bb4bbc9f3ffd84f4f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/Emit light.png using Guid(45b3a0bafc716bb4bbc9f3ffd84f4f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c5e6b0a7d08fdb7083e894fa380d83') in 0.010319 seconds 
+  Import took 0.013184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/Rewards Title.png
+  artifactKey: Guid(6ca773f42cc48404684726ae8a09bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/1DailyRewards/Rewards Title.png using Guid(6ca773f42cc48404684726ae8a09bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f702de215591c36d43a8675611d2845') in 0.008635 seconds 
+  Import took 0.011342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.057041 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Scenes
+  artifactKey: Guid(aa914cd9bd2d5c645891c43bd9036f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Scenes using Guid(aa914cd9bd2d5c645891c43bd9036f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f4ca9694b676250b81cdc9ccab5e28') in 0.001624 seconds 
+  Import took 0.004463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.454700 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Scenes/Demo_Fantasy Cyberpunk UI.unity
+  artifactKey: Guid(7be2b2c65eceffd4fad01c2ad3caee46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Scenes/Demo_Fantasy Cyberpunk UI.unity using Guid(7be2b2c65eceffd4fad01c2ad3caee46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67f0ccbed5b5f17324ab75dd67ff798') in 0.006391 seconds 
+  Import took 0.009580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.964311 seconds.
+  path: Assets/DTT
+  artifactKey: Guid(f906f124411c71b4e8e5dac73d5c34e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT using Guid(f906f124411c71b4e8e5dac73d5c34e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f7a5a419d778b6293b919e248a3693') in 0.005964 seconds 
+  Import took 0.009065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.493585 seconds.
+  path: Assets/DTT/DTTween
+  artifactKey: Guid(879d5bcedad89ee45805b045a9031f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/DTTween using Guid(879d5bcedad89ee45805b045a9031f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515cc7ab373b73696ba012732fb246f3') in 0.005759 seconds 
+  Import took 0.008836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.223843 seconds.
+  path: Assets/DTT/DTTween/Demo
+  artifactKey: Guid(5b9e18817effd2f4c9b2740c91808061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/DTTween/Demo using Guid(5b9e18817effd2f4c9b2740c91808061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5294d55c2afb5b3eb1766573e5b1e7') in 0.006070 seconds 
+  Import took 0.008862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084054 seconds.
+  path: Assets/DTT/DTTween/Demo/DTT.DTTween.Demo.asmdef
+  artifactKey: Guid(776ff5298ffab1b49a3e95d86ca4e2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/DTTween/Demo/DTT.DTTween.Demo.asmdef using Guid(776ff5298ffab1b49a3e95d86ca4e2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6171a802c08b3bb9f4b7d9e1235bd5') in 0.006552 seconds 
+  Import took 0.009998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.808699 seconds.
+  path: Assets/DTT/Editor Utilities
+  artifactKey: Guid(72460f93b9e7c594a9ed73bc8549f51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Editor Utilities using Guid(72460f93b9e7c594a9ed73bc8549f51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df8cbf6a7c238dbca5b5cd1e3e13427') in 0.005914 seconds 
+  Import took 0.009208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.611414 seconds.
+  path: Assets/DTT/Minigame Advertisements
+  artifactKey: Guid(d9676175efcfbb7459175837e4393669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Advertisements using Guid(d9676175efcfbb7459175837e4393669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93842f32173dbb593f26a5dea6aa9891') in 0.006077 seconds 
+  Import took 0.009074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.437824 seconds.
+  path: Assets/DTT/Minigame Advertisements/Demo
+  artifactKey: Guid(6e0c78aa1ffcfe142aa65096c9ac7faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Advertisements/Demo using Guid(6e0c78aa1ffcfe142aa65096c9ac7faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc35f155762a17a59131a08cb5f9d7ed') in 0.001747 seconds 
+  Import took 0.004947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.482837 seconds.
+  path: Assets/DTT/Minigame Advertisements/Demo/Scenes
+  artifactKey: Guid(e036050ab9289de46bb16b20f6aa9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Advertisements/Demo/Scenes using Guid(e036050ab9289de46bb16b20f6aa9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c34a963bfc202d7bf471a19c44a0a20') in 0.001551 seconds 
+  Import took 0.004587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.521339 seconds.
+  path: Assets/DTT/Minigame Advertisements/Demo/Scenes/Demo Advertisements.unity
+  artifactKey: Guid(1ceb3825808a56543b9de75ac79fe71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Advertisements/Demo/Scenes/Demo Advertisements.unity using Guid(1ceb3825808a56543b9de75ac79fe71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cc03f720dedad0c6602a7fbe2c2ea0') in 0.006410 seconds 
+  Import took 0.009456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.888776 seconds.
+  path: Assets/DTT/Minigame Advertisements/Runtime
+  artifactKey: Guid(64ab568f897c1a241a4843d5a4fe614d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Advertisements/Runtime using Guid(64ab568f897c1a241a4843d5a4fe614d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b1d597a934bf3058480e62aa6f3ad4') in 0.006389 seconds 
+  Import took 0.009579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091252 seconds.
+  path: Assets/DTT/Minigame Advertisements/Runtime/DTT.MinigameAdvertisements.Runtime.asmdef
+  artifactKey: Guid(035390020c303f446a7b7076b8e47973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Advertisements/Runtime/DTT.MinigameAdvertisements.Runtime.asmdef using Guid(035390020c303f446a7b7076b8e47973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6293e730a686e5ada497b2fd0dccbb7b') in 0.005914 seconds 
+  Import took 0.009228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.194229 seconds.
+  path: Assets/DTT/Minigame Advertisements/Runtime/AdMob
+  artifactKey: Guid(69580611bbba4334a8c989b8bd2e7fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Advertisements/Runtime/AdMob using Guid(69580611bbba4334a8c989b8bd2e7fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d21ad54be98d46b841c5c7766b7b15a') in 0.006101 seconds 
+  Import took 0.009001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.124788 seconds.
+  path: Assets/DTT/Minigame Advertisements/Runtime/UnityAds
+  artifactKey: Guid(6a134573a2bd7614ca15cd8c1939b281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Advertisements/Runtime/UnityAds using Guid(6a134573a2bd7614ca15cd8c1939b281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8218ea99dd9093505bf74196ed135dc7') in 0.006454 seconds 
+  Import took 0.009430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.778574 seconds.
+  path: Assets/DTT/Minigame Advertisements/Editor
+  artifactKey: Guid(776b978e242acf34a9b7a2c769be5d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Advertisements/Editor using Guid(776b978e242acf34a9b7a2c769be5d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f08c5d031f10a23f2d9c68eedfce60a') in 0.001548 seconds 
+  Import took 0.004491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088572 seconds.
+  path: Assets/DTT/Minigame Advertisements/Editor/DTT.MinigameAdvertisements.Editor.asmdef
+  artifactKey: Guid(fd74e4487757e9e42bfc4f8d6ae45470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Advertisements/Editor/DTT.MinigameAdvertisements.Editor.asmdef using Guid(fd74e4487757e9e42bfc4f8d6ae45470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8c34b1b1374c98cf693d84d6807a86') in 0.004448 seconds 
+  Import took 0.007565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.568968 seconds.
+  path: Assets/DTT/Minigame Advertisements/Editor/Ads
+  artifactKey: Guid(9f5c2d7a26b9d1249a6941622255b920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Advertisements/Editor/Ads using Guid(9f5c2d7a26b9d1249a6941622255b920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7185b380b0ad7bd2e1887a6350714a70') in 0.005881 seconds 
+  Import took 0.008853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.649065 seconds.
+  path: Assets/DTT/Minigame Advertisements/Editor/Ads/AdMobToggler.cs
+  artifactKey: Guid(d792ecbe31f39c7499cca6865e9ef0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Advertisements/Editor/Ads/AdMobToggler.cs using Guid(d792ecbe31f39c7499cca6865e9ef0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167aa20aecc15933b8f3968e8c8649ec') in 0.005831 seconds 
+  Import took 0.008841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.192329 seconds.
+  path: Assets/DTT/Minigame Advertisements/Documentation Ads Minigame Base.docx.pdf
+  artifactKey: Guid(b6a320b9643da654991d1b842c89c491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Advertisements/Documentation Ads Minigame Base.docx.pdf using Guid(b6a320b9643da654991d1b842c89c491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced0a5da8f8e7c53616d4e9d6e78f309') in 0.015498 seconds 
+  Import took 0.018523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.325274 seconds.
+  path: Assets/DTT/Minigame Base
+  artifactKey: Guid(0de8544677d1ff442a4f93c227b31864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Base using Guid(0de8544677d1ff442a4f93c227b31864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff6e9b9a3de377d8228dbb5477b985e') in 0.006262 seconds 
+  Import took 0.010736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.309170 seconds.
+  path: Assets/DTT/Minigame Base/Assets
+  artifactKey: Guid(b76773a5237a391479a2ad427c2e4e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Base/Assets using Guid(b76773a5237a391479a2ad427c2e4e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d73485f92e380a05351745ad3125130') in 0.005666 seconds 
+  Import took 0.008744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.583894 seconds.
+  path: Assets/DTT/Minigame Base/Assets/Audio
+  artifactKey: Guid(c137f6746ef05b94c815d889e98f92e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Base/Assets/Audio using Guid(c137f6746ef05b94c815d889e98f92e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7baf77fac6d3290ecb32e0ec3f88ae46') in 0.001478 seconds 
+  Import took 0.004462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073694 seconds.
+  path: Assets/DTT/Minigame Base/Assets/Audio/Click.wav
+  artifactKey: Guid(269ae0c82dee4b7469b9fed2fa8fa647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Base/Assets/Audio/Click.wav using Guid(269ae0c82dee4b7469b9fed2fa8fa647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11eefbe61d35129b3bc36dd37b1bbfb2') in 0.014186 seconds 
+  Import took 0.017249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/DTT/Minigame Base/Assets/Audio/Positive Feedback.wav
+  artifactKey: Guid(7956bff968f08904786ffb541e415219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Base/Assets/Audio/Positive Feedback.wav using Guid(7956bff968f08904786ffb541e415219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e341f1f9e5471d7168440e6762c387f') in 0.009723 seconds 
+  Import took 0.012855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/DTT/Minigame Base/Assets/Audio/Negative Feedback.wav
+  artifactKey: Guid(076f355c89de8c34badf6f9c50359b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Base/Assets/Audio/Negative Feedback.wav using Guid(076f355c89de8c34badf6f9c50359b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24241705969b3ea543eae08b3e962d10') in 0.018571 seconds 
+  Import took 0.021447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/DTT/Minigame Base/Assets/Audio/Connect Click.wav
+  artifactKey: Guid(fc9826c51baaea442a3495283dad0e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Base/Assets/Audio/Connect Click.wav using Guid(fc9826c51baaea442a3495283dad0e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd707ebd4a9817fb9dfa60ce347153c5') in 0.010143 seconds 
+  Import took 0.013173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.756071 seconds.
+  path: Assets/DTT/Publishing Tools
+  artifactKey: Guid(3f9bea9ba224afb4aa2027e7edca2f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools using Guid(3f9bea9ba224afb4aa2027e7edca2f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66ee2e9eeddb9ed8cbf7079a8554673') in 0.012047 seconds 
+  Import took 0.015315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.686158 seconds.
+  path: Assets/DTT/Publishing Tools/Runtime
+  artifactKey: Guid(c1c0e1f0938184043922a3c32886ccd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Runtime using Guid(c1c0e1f0938184043922a3c32886ccd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc7a81f2af9f09c0c98e11ac6e364a4') in 0.001402 seconds 
+  Import took 0.004254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076657 seconds.
+  path: Assets/DTT/Publishing Tools/Runtime/DTT.PublishingTools.Runtime.asmdef
+  artifactKey: Guid(42c715f93f2a87549bf83c68b0c29dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Runtime/DTT.PublishingTools.Runtime.asmdef using Guid(42c715f93f2a87549bf83c68b0c29dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b379df08e3d46b821de3db49eac085') in 0.004246 seconds 
+  Import took 0.007636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.058141 seconds.
+  path: Assets/DTT/Runtime Utilities
+  artifactKey: Guid(9aafe4462f684d146ac5c0cab168a6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Runtime Utilities using Guid(9aafe4462f684d146ac5c0cab168a6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc9b8227ea884b869860421437f4e4f') in 0.005838 seconds 
+  Import took 0.008860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.808554 seconds.
+  path: Assets/DTT/Runtime Utilities/Runtime
+  artifactKey: Guid(0a99f8c87e8d1224e8bbb2a60aa6f732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Runtime Utilities/Runtime using Guid(0a99f8c87e8d1224e8bbb2a60aa6f732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a130052c6948296c17be501ab8002552') in 0.001475 seconds 
+  Import took 0.004376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078934 seconds.
+  path: Assets/DTT/Runtime Utilities/Runtime/DTT.RuntimeUtilities.Runtime.asmdef
+  artifactKey: Guid(1711cb30f577ba1498364a78a6873853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Runtime Utilities/Runtime/DTT.RuntimeUtilities.Runtime.asmdef using Guid(1711cb30f577ba1498364a78a6873853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154cbfd7cbd878da7089b60c822af0ef') in 0.005607 seconds 
+  Import took 0.008480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.404742 seconds.
+  path: Assets/DTT/Runtime Utilities/Runtime/Components
+  artifactKey: Guid(d83eb52a1959d8943b4653fc2f37bb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Runtime Utilities/Runtime/Components using Guid(d83eb52a1959d8943b4653fc2f37bb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc90a3b8aa21b58a85f21cafa8f57a5') in 0.006397 seconds 
+  Import took 0.009367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.282162 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249e5adf2e27544c166ac91c39e379cb') in 0.006184 seconds 
+  Import took 0.009214 seconds .
+
+12.12.2023 15:04:57|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
