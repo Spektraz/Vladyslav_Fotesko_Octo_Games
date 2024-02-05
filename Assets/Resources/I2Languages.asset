@@ -23,7 +23,8 @@ MonoBehaviour:
       Languages:
       - Start Game
       - Demarrer jeu
-      Flags: 0000
+      - "\u05D4\u05EA\u05D7\u05DC \u05DE\u05E9\u05D7\u05E7"
+      Flags: 000000
       Languages_Touch: []
     - Term: Exit_Game
       TermType: 0
@@ -31,7 +32,8 @@ MonoBehaviour:
       Languages:
       - Exit Game
       - Quitter le jeu
-      Flags: 0000
+      - "\u05E6\u05D0 \u05DE\u05D4\u05DE\u05E9\u05D7\u05E7"
+      Flags: 000000
       Languages_Touch: []
     - Term: Enter_Name
       TermType: 0
@@ -39,7 +41,17 @@ MonoBehaviour:
       Languages:
       - Enter name
       - Entrez le nom
-      Flags: 0000
+      - "\u05D4\u05DB\u05E0\u05E1 \u05E9\u05DD"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Start
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Start '
+      - Commencer
+      - "\u05D4\u05B7\u05EA\u05D7\u05B8\u05DC\u05B8\u05D4"
+      Flags: 000000
       Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
@@ -51,12 +63,15 @@ MonoBehaviour:
     - Name: French
       Code: fr
       Flags: 0
+    - Name: Hebrew
+      Code: he
+      Flags: 0
     IgnoreDeviceLanguage: 0
     _AllowUnloadingLanguages: 1
     Google_WebServiceURL: https://script.google.com/macros/s/AKfycby3QQCQJr_sTtWOYqcppl2WWen_12tDO5Olt3EkqOWhzi9eToi-fWnf6BNToyApDnIS/exec
     Google_SpreadsheetKey: 1KWp-CuKGpwWZHQcKwiqyabghLF5B5maTsXXIOuJ_O3c
     Google_SpreadsheetName: I2Loc Fotesko_Vladyslav_OCTO_Games Localization
-    Google_LastUpdatedVersion: 1702389056010
+    Google_LastUpdatedVersion: 1707141860033
     Google_Password: change_this
     GoogleUpdateFrequency: 3
     GoogleInEditorCheckFrequency: 2

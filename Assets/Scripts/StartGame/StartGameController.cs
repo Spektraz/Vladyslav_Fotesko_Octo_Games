@@ -26,8 +26,9 @@ namespace StartGame
 
         private void InitializeNamePlayer()
         {
+            
             m_viewModel.NamePlayer.onValueChanged.AddListener(OnInputValueChanged);
-            m_viewModel.NamePlayer.text = SaveManager.LoadInt(GlobalConst.PlayerName).ToString();
+            m_viewModel.NamePlayer.text = SaveManager.LoadString(GlobalConst.PlayerName);
         }
         private void DisposeButtons()
         {
@@ -40,6 +41,7 @@ namespace StartGame
         }
         private void StartGame()
         {
+            SaveManager.Save("PlayerName", m_viewModel.NamePlayer.text);
             SceneManager.LoadScene(GlobalConst.SceneFirstLocal);
         }
 

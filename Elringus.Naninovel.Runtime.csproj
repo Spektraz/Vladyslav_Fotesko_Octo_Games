@@ -118,8 +118,8 @@
      <Compile Include="Assets\Scripts\Naninovel\Runtime\FX\ShakeCamera.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Common\Async\UniTask\Internal\Error.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Input\InputSwipeDirection.cs" />
-     <Compile Include="Assets\Scripts\Naninovel\Runtime\Common\Tween\FloatTween.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Actor\ChoiceHandler\IChoiceHandlerManager.cs" />
+     <Compile Include="Assets\Scripts\Naninovel\Runtime\Common\Tween\FloatTween.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Configuration\IConfigurationProvider.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Actor\RenderCanvas.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Command\Audio\PlaySfx.cs" />
@@ -176,8 +176,8 @@
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Audio\AudioClipState.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Configuration\Configuration.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\UI\TextPrinter\UITextPrinterPanel.cs" />
-     <Compile Include="Assets\Scripts\Naninovel\Runtime\Common\Async\UniTask\Internal\ContinuationQueue.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Script\Parameter\BooleanListParameter.cs" />
+     <Compile Include="Assets\Scripts\Naninovel\Runtime\Common\Async\UniTask\Internal\ContinuationQueue.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\UI\IManagedUI.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Common\Async\UniTask\Public\UnityAsyncExtensions.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Console\ConsoleGUI.cs" />
@@ -281,9 +281,9 @@
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Command\Printer\ResetText.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\UI\Title\TitleContinueButton.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Console\CommandDatabase.cs" />
-     <Compile Include="Assets\Scripts\Naninovel\Runtime\Common\Async\UniTask\Public\UniTask.Threading.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Common\ResourceProvider\ResourceLoader.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\ScriptPlayer\PlayerSkipMode.cs" />
+     <Compile Include="Assets\Scripts\Naninovel\Runtime\Common\Async\UniTask\Public\UniTask.Threading.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Common\Async\UniTask\Public\UniTask.WaitUntil.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Common\ScriptableUI\ScriptableGridSlot.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\UI\ControlPanel\ControlPanelQuickLoadButton.cs" />
@@ -378,9 +378,9 @@
      <Compile Include="Assets\Scripts\Naninovel\Runtime\UI\TextPrinter\RevealableTMProText.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Common\Collections\IntRange.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Common\Async\UniTask\IAwaiter.cs" />
-     <Compile Include="Assets\Scripts\Naninovel\Runtime\Actor\SpriteActor.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\UI\ContinueInput\ContinueInputUI.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Common\Utilities\TextureUtils.cs" />
+     <Compile Include="Assets\Scripts\Naninovel\Runtime\Actor\SpriteActor.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\UI\IUIManager.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Command\Audio\StopBgm.cs" />
      <Compile Include="Assets\Scripts\Naninovel\Runtime\Common\Utilities\ResourceUtils.cs" />
@@ -906,6 +906,9 @@
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>D:/Unity/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+ <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>
  <Reference Include="Naninovel.Common">
  <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets/Scripts/Naninovel/Plugins/Naninovel.Common.dll</HintPath>

@@ -1,11 +1,12 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Audio
 {
     public class AudioManager: MonoBehaviour
     {
-        [SerializeField] private AudioSource m_audioSource = null;
+        [SerializeField] private List<AudioSource> m_audioSourceList = new List<AudioSource>();
         private static GameObject instance = null;
         private void Initialize()
         {
@@ -37,7 +38,10 @@ namespace Audio
 
         private void SetAudio(bool state)
         {
-            m_audioSource.mute = state;
+            foreach (var var in m_audioSourceList)
+            {
+                var.mute = state;
+            }
         }
     }
 }

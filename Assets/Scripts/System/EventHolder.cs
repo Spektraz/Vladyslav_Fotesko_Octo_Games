@@ -4,24 +4,26 @@ namespace System
 {
     public class EventHolder 
     {
-        public Action<TimeSpan, Action> OnStartTimeEvent;
-        public void OnStartTime(TimeSpan span, Action action)
-        {
-            var temp = OnStartTimeEvent;
-            temp?.Invoke(span, action);
-        }
-        public Action<TimeSpan> OnTimeTickEvent;
-        public void OnTimeTick(TimeSpan span)
-        {
-            var temp = OnTimeTickEvent;
-            temp?.Invoke(span);
-        }
         public Action<bool> OnSwitchAudioEvent;
         public void OnSwitchAudio(bool state)
         {
             var temp = OnSwitchAudioEvent;
             temp?.Invoke(state);
         }
+          public Action<TimeSpan, Action> OnStartTimeEvent;
+        public void OnStartTime(TimeSpan span, Action action)
+        {
+            var temp = OnStartTimeEvent;
+            temp?.Invoke(span, action);
+        }
+        public Action<TimeSpan> OnTimeTickEvent;
+
+        public void OnTimeTick(TimeSpan span)
+        {
+            var temp = OnTimeTickEvent;
+            temp?.Invoke(span);
+        }
+
         public Action<bool> OnIngamePanelElementsMoveEvent;
         
         public Action<int> OnLooseAnswerEvent;

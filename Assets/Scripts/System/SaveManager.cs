@@ -1,6 +1,4 @@
 using UnityEngine;
-using MainGame.Question;
-using Newtonsoft.Json;
 
 namespace System
 {
@@ -9,10 +7,6 @@ namespace System
       public static void Save(string key, string saveData)
       {
          PlayerPrefs.SetString(key, saveData);
-      }
-      public static void Save(string key, QuestionItem saveData)
-      {
-         PlayerPrefs.SetString(key, JsonConvert.SerializeObject(saveData));
       }
       public static void Save(string key, int saveData)
       {
@@ -37,12 +31,6 @@ namespace System
          }
 
          return null;
-      }
-
-      public static QuestionItem Load(string key)
-      {
-         QuestionItem item = JsonConvert.DeserializeObject<QuestionItem>( PlayerPrefs.GetString(key ) );
-         return item;
       }
    }
 }

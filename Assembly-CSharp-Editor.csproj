@@ -52,37 +52,37 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_Scenes.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_Categorize.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LanguageSourceAssetInspector.cs" />
-     <Compile Include="Assets\Adjust\Editor\AdjustSettings.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LocalizationEditor.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\EditorTools.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\UpgradeManager.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_CharSet.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LocalizeDropdownInspector.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Editor\PostProcessBuild_UnloadLanguages.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\PostProcessBuild_IOS.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LocalizationParamsManagerInspector.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\SetLanguageInspector.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Terms.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\ResourceManagerInspector.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LocalizeInspector.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LanguageSourceInspector.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_Script.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Spreadsheet_Google.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\SetLanguageInspector.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Languages.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Terms.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\PostProcessBuild_IOS.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Warnings.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Terms_Description.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_NoLocalized.cs" />
-     <Compile Include="Assets\Adjust\Editor\AdjustEditor.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Editor\PostProcessBuild_ANDROID.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_ParseTerms.cs" />
+     <Compile Include="Assets\Adjust\Editor\AdjustSettings.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Spreadsheet_Local.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Languages.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\TermsPopup_Drawer.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LocalizeInspector.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_Categorize.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_MergeTerms.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\EditorTools.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LocalizationEditor.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\UpgradeManager.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Spreadsheet_Google.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\TermsPopup_Drawer.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_Scenes.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LocalizationParamsManagerInspector.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\ResourceManagerInspector.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_NoLocalized.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_ParseTerms.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LanguageSourceAssetInspector.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_CharSet.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LocalizeDropdownInspector.cs" />
+     <Compile Include="Assets\Adjust\Editor\AdjustEditor.cs" />
      <None Include="Assets\I2\Localization\Scripts\Editor\Unity XCode\Xcode.txt" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Unity/2020.3.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -318,6 +318,18 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>D:/Unity/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+ <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS_I2Loc.Xcode">
+ <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets/I2/Localization/Scripts/Editor/Unity XCode/UnityEditor.iOS_I2Loc.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="log4netPlastic">
+ <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
  <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
@@ -327,26 +339,17 @@
  <Reference Include="unityplastic">
  <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
- <Reference Include="Naninovel.Common">
- <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets/Scripts/Naninovel/Plugins/Naninovel.Common.dll</HintPath>
- </Reference>
- <Reference Include="log4netPlastic">
- <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS_I2Loc.Xcode">
- <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets/I2/Localization/Scripts/Editor/Unity XCode/UnityEditor.iOS_I2Loc.Xcode.dll</HintPath>
- </Reference>
  <Reference Include="Win81Interface">
  <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets/Adjust/Windows/Stubs/Win81Interface.dll</HintPath>
  </Reference>
- <Reference Include="Win10Interface">
- <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets/Adjust/Windows/Stubs/Win10Interface.dll</HintPath>
+ <Reference Include="Naninovel.Common">
+ <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets/Scripts/Naninovel/Plugins/Naninovel.Common.dll</HintPath>
  </Reference>
  <Reference Include="WinWsInterface">
  <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets/Adjust/Windows/Stubs/WinWsInterface.dll</HintPath>
+ </Reference>
+ <Reference Include="Win10Interface">
+ <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets/Adjust/Windows/Stubs/Win10Interface.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>

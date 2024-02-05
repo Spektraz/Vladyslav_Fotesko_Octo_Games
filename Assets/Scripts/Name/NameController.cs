@@ -14,12 +14,12 @@ namespace Name
       }
       private void Save()
       {
-         SaveManager.Save(GlobalConst.NameKey, m_mainName);
+         SaveManager.Save(GlobalConst.PlayerName, m_mainName);
       }
 
       private string Load()
       {
-         return SaveManager.LoadString(GlobalConst.NameKey) ?? m_mainName;
+         return SaveManager.LoadString(GlobalConst.PlayerName) ?? m_mainName;
       }
    }
 }
