@@ -318,9 +318,6 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>D:/Unity/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.iOS_I2Loc.Xcode">
  <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets/I2/Localization/Scripts/Editor/Unity XCode/UnityEditor.iOS_I2Loc.Xcode.dll</HintPath>
  </Reference>
@@ -341,9 +338,6 @@
  </Reference>
  <Reference Include="Win81Interface">
  <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets/Adjust/Windows/Stubs/Win81Interface.dll</HintPath>
- </Reference>
- <Reference Include="Naninovel.Common">
- <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets/Scripts/Naninovel/Plugins/Naninovel.Common.dll</HintPath>
  </Reference>
  <Reference Include="WinWsInterface">
  <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets/Adjust/Windows/Stubs/WinWsInterface.dll</HintPath>
@@ -815,74 +809,6 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{308228af-9e5d-44ec-ecf7-6c5a59f85309}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.MinigameAdvertisements.Runtime.csproj">
-      <Project>{14f56e95-b89d-c449-1650-981e9f4b8808}</Project>
-      <Name>DTT.MinigameAdvertisements.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.EditorUtilities.Demo.csproj">
-      <Project>{864a38f7-97a0-0627-a9d5-ba17c6dfea9b}</Project>
-      <Name>DTT.EditorUtilities.Demo</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.MinigameBase.Editor.csproj">
-      <Project>{e98bcda5-c761-1214-44fa-37844b9dbf02}</Project>
-      <Name>DTT.MinigameBase.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.RuntimeUtilities.Runtime.csproj">
-      <Project>{507de8bb-9379-00ff-37a8-7d89df4d18e0}</Project>
-      <Name>DTT.RuntimeUtilities.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.DTTween.Runtime.csproj">
-      <Project>{6ddac277-b87b-b729-746f-e7000eb5414e}</Project>
-      <Name>DTT.DTTween.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Elringus.Naninovel.Spreadsheet.Editor.csproj">
-      <Project>{60ca5cd5-246e-e6ab-a237-61a768ece22d}</Project>
-      <Name>Elringus.Naninovel.Spreadsheet.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.Minigame-Memory.Editor.csproj">
-      <Project>{47855ffa-47c2-6a5e-7863-9439473318fd}</Project>
-      <Name>DTT.Minigame-Memory.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.MinigameAdvertisements.Editor.csproj">
-      <Project>{92a9e7b1-487e-a821-daef-5beee3540a8e}</Project>
-      <Name>DTT.MinigameAdvertisements.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Elringus.Naninovel.Runtime.csproj">
-      <Project>{a739ac6f-7386-c2e4-cb14-38f3fe4ae19f}</Project>
-      <Name>Elringus.Naninovel.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.PublishingTools.Runtime.csproj">
-      <Project>{bdc38458-3a0e-e5a7-ebd4-feca3324ef70}</Project>
-      <Name>DTT.PublishingTools.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.PublishingTools.Editor.csproj">
-      <Project>{a30d52b5-e1a1-398a-2018-eeb81789d773}</Project>
-      <Name>DTT.PublishingTools.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.EditorUtilities.Editor.csproj">
-      <Project>{0e62a2ef-f0a5-a0b3-49cc-22867a02826f}</Project>
-      <Name>DTT.EditorUtilities.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Elringus.Naninovel.Editor.csproj">
-      <Project>{d093a383-22f0-62b7-cca1-dd1d9981cd49}</Project>
-      <Name>Elringus.Naninovel.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.MinigameBase.Runtime.csproj">
-      <Project>{8bf3d9cf-36e5-4a1e-6c8b-008c2c36f139}</Project>
-      <Name>DTT.MinigameBase.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.RuntimeUtilities.Demo.csproj">
-      <Project>{a99e272c-437a-8356-c472-8fab26d8a652}</Project>
-      <Name>DTT.RuntimeUtilities.Demo</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.MinigameMemory.Demo.csproj">
-      <Project>{9599d9ff-bb96-c2de-0add-217f6e1a7fe8}</Project>
-      <Name>DTT.MinigameMemory.Demo</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.Minigame-Memory.Runtime.csproj">
-      <Project>{3f476bc7-2cca-82d8-86c8-91e603444e4b}</Project>
-      <Name>DTT.Minigame-Memory.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

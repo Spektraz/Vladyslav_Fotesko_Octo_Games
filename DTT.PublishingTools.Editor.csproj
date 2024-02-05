@@ -313,9 +313,6 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>D:/Unity/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.iOS_I2Loc.Xcode">
  <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets/I2/Localization/Scripts/Editor/Unity XCode/UnityEditor.iOS_I2Loc.Xcode.dll</HintPath>
  </Reference>

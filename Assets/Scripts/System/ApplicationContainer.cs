@@ -8,11 +8,8 @@ namespace System
             get { return m_eventHolder; }
         }
 
-        private ResultGame resultGame = null;
-        public ResultGame ResultGame
-        {
-            get { return resultGame; }
-        }
+    
+    
 
         private void Awake()
         {

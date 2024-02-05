@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-using Assets.Scripts.System.Tools;
 using Assets.Scripts.UI.Window;
 using Ui.Panel;
 using UnityEngine;
@@ -92,10 +91,7 @@ namespace Ui
             StartCoroutine(Scale(objectScale, scale, time, onFinish));
         }
 
-        protected Timer AddTimer()
-        {
-            return gameObject.AddComponent<Timer>();
-        }
+      
 
         private IEnumerator Scale(Vector2 scale, float time, Action onFinish)
         {

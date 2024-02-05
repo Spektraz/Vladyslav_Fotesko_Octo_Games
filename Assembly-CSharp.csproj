@@ -53,7 +53,6 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_SpriteRenderer.cs" />
-     <Compile Include="Assets\Scripts\System\TimerHolder.cs" />
      <Compile Include="Assets\Adjust\Unity\AdjustSessionSuccess.cs" />
      <Compile Include="Assets\Adjust\Unity\AdjustSessionFailure.cs" />
      <Compile Include="Assets\Scripts\Name\ShowNameView.cs" />
@@ -76,11 +75,9 @@
      <Compile Include="Assets\I2\Localization\Scripts\Manager\LocalizationManager_Translation.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_TextMesh.cs" />
      <Compile Include="Assets\Adjust\Unity\Adjust.cs" />
-     <Compile Include="Assets\Scripts\Ui\BuildWindow\BuildInfoWindow\BuildInfoWindow.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityUI_RawImage.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Manager\LocalizationManager_RTL.cs" />
      <Compile Include="Assets\Scripts\System\ApplicationContainer.cs" />
-     <Compile Include="Assets\Scripts\System\RealtimeTimer.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Misc.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Export_CSV.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Utils\HindiFixer.cs" />
@@ -101,6 +98,7 @@
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_2DToolKit_Sprite.cs" />
      <Compile Include="Assets\Scripts\System\GlobalConst.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityUI_Text.cs" />
+     <Compile Include="Assets\Scripts\System\Save\CoinsController.cs" />
      <Compile Include="Assets\Scripts\Name\NameController.cs" />
      <Compile Include="Assets\Adjust\Unity\AdjustConfig.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\TermData.cs" />
@@ -122,17 +120,17 @@
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityUI_Image.cs" />
      <Compile Include="Assets\Adjust\Unity\AdjustEvent.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Utils\RTLFixer.cs" />
-     <Compile Include="Assets\Scripts\System\Tools\Timer.cs" />
      <Compile Include="Assets\Scripts\System\EventHolder.cs" />
+     <Compile Include="Assets\Scripts\MainGame\WheelFortuneModel.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Import_CSV.cs" />
      <Compile Include="Assets\Scripts\System\Singleton.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Utils\ResourceManager.cs" />
      <Compile Include="Assets\Adjust\Unity\AdjustAttribution.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Configurables\SpecializationManager.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_2DToolKit_Label.cs" />
+     <Compile Include="Assets\Scripts\MainGame\WheelFortuneView.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Utils\CoroutineManager.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\EventCallback.cs" />
-     <Compile Include="Assets\Scripts\System\ResultGame.cs" />
      <Compile Include="Assets\Adjust\iOS\AdjustiOS.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_Child.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Utils\CustomLocalizeCallback.cs" />
@@ -151,7 +149,6 @@
      <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Import_Google.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\LocalizeDropdown.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\ILocalizeTarget.cs" />
-     <Compile Include="Assets\Scripts\System\FileManager.cs" />
      <Compile Include="Assets\Adjust\Android\AdjustAndroid.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_GUITexture.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Manager\LocalizationManager_SystemLanguage.cs" />
@@ -163,68 +160,36 @@
      <Compile Include="Assets\Adjust\Windows\AdjustWindows.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Manager\LocalizationManager_Language.cs" />
      <Compile Include="Assets\Scripts\System\DataBase\Models\BuildIfo\BuildInfoModel.cs" />
+     <Compile Include="Assets\Scripts\MainGame\WheelFortuneController.cs" />
      <Compile Include="Assets\Adjust\Unity\AdjustThirdPartySharing.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_GUIText.cs" />
      <Compile Include="Assets\Scripts\Audio\AudioSwitch.cs" />
      <Compile Include="Assets\Scripts\StartGame\StartGameModel.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Configurables\PersistentStorage.cs" />
-     <Compile Include="Assets\Scripts\StartMenu\StartMenuController.cs" />
-     <Compile Include="Assets\Scripts\StartMenu\StartMenuModel.cs" />
-     <Compile Include="Assets\Scripts\MainGame\WheelFortuneController.cs" />
-     <Compile Include="Assets\Scripts\StartMenu\StartMenuView.cs" />
-     <Compile Include="Assets\Scripts\MainGame\WheelFortuneView.cs" />
-     <Compile Include="Assets\Scripts\MainGame\WheelFortuneModel.cs" />
-     <Compile Include="Assets\Scripts\Utils\Forker.cs" />
-     <Compile Include="Assets\Scripts\Save\CoinsController.cs" />
+     <Compile Include="Assets\Scripts\Advertisement\AdvertisingContoller.cs" />
+     <Compile Include="Assets\Scripts\Advertisement\AdvertisingView.cs" />
+     <Compile Include="Assets\Scripts\Advertisement\AdvertisingModel.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\RevealableText.shader" />
      <None Include="Assets\Adjust\Android\AdjustAndroidManifest.xml" />
-     <None Include="Assets\Scripts\Naninovel\Fonts\LICENSE.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\BlurFilter.shader" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\DepthOfFieldComposition.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-     <None Include="Assets\Scripts\Naninovel\Plugins\Naninovel.Common.xml" />
-     <None Include="Assets\Scripts\Naninovel\ThirdParty\WebSocketSharp\LICENSE.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\DepthOfFieldDiskBlur.cginc" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\RevealableTMProTextExtra.shader" />
      <None Include="Assets\I2\Localization\readme.txt" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\DepthMask.shader" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\TransitionalUI.shader" />
-     <None Include="Assets\Scripts\NaninovelData\Metadata.xml" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\DepthOfField.shader" />
-     <None Include="Assets\Scripts\Naninovel\ThirdParty\NLayer\LICENSE.txt" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\NaninovelCG.cginc" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\DepthOfFieldDiskKernel.cginc" />
-     <None Include="Assets\Scripts\NaninovelSpreadsheet\ThirdParty\OpenXml\LICENSE.txt" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\DepthOfFieldCommon.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\RevealableTMProSprite.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\Transparent.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\TransitionalTexture.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <None Include="Assets\NaninovelData\Metadata.xml" />
-     <None Include="Assets\DTT\Minigame Base\Assets\Fonts\OFL.txt" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\RevealableTMProTextRTL.shader" />
-     <None Include="Assets\Scripts\Naninovel\ThirdParty\NCalc\LICENSE.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\DigitalGlitch.shader" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\RevealableTMProText.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\TransitionEffects.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-     <None Include="Assets\Scripts\Naninovel\Resources\Naninovel\Shaders\DepthOfFieldPrefilter.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
  <Reference Include="UnityEngine">
@@ -454,9 +419,6 @@
  </Reference>
  <Reference Include="Win81Interface">
  <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets/Adjust/Windows/Stubs/Win81Interface.dll</HintPath>
- </Reference>
- <Reference Include="Naninovel.Common">
- <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets/Scripts/Naninovel/Plugins/Naninovel.Common.dll</HintPath>
  </Reference>
  <Reference Include="WinWsInterface">
  <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Assets/Adjust/Windows/Stubs/WinWsInterface.dll</HintPath>
@@ -913,74 +875,6 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="DTT.MinigameAdvertisements.Runtime.csproj">
-      <Project>{14f56e95-b89d-c449-1650-981e9f4b8808}</Project>
-      <Name>DTT.MinigameAdvertisements.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.EditorUtilities.Demo.csproj">
-      <Project>{864a38f7-97a0-0627-a9d5-ba17c6dfea9b}</Project>
-      <Name>DTT.EditorUtilities.Demo</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.MinigameBase.Editor.csproj">
-      <Project>{e98bcda5-c761-1214-44fa-37844b9dbf02}</Project>
-      <Name>DTT.MinigameBase.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.RuntimeUtilities.Runtime.csproj">
-      <Project>{507de8bb-9379-00ff-37a8-7d89df4d18e0}</Project>
-      <Name>DTT.RuntimeUtilities.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.DTTween.Runtime.csproj">
-      <Project>{6ddac277-b87b-b729-746f-e7000eb5414e}</Project>
-      <Name>DTT.DTTween.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Elringus.Naninovel.Spreadsheet.Editor.csproj">
-      <Project>{60ca5cd5-246e-e6ab-a237-61a768ece22d}</Project>
-      <Name>Elringus.Naninovel.Spreadsheet.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.Minigame-Memory.Editor.csproj">
-      <Project>{47855ffa-47c2-6a5e-7863-9439473318fd}</Project>
-      <Name>DTT.Minigame-Memory.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.MinigameAdvertisements.Editor.csproj">
-      <Project>{92a9e7b1-487e-a821-daef-5beee3540a8e}</Project>
-      <Name>DTT.MinigameAdvertisements.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Elringus.Naninovel.Runtime.csproj">
-      <Project>{a739ac6f-7386-c2e4-cb14-38f3fe4ae19f}</Project>
-      <Name>Elringus.Naninovel.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.PublishingTools.Runtime.csproj">
-      <Project>{bdc38458-3a0e-e5a7-ebd4-feca3324ef70}</Project>
-      <Name>DTT.PublishingTools.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.PublishingTools.Editor.csproj">
-      <Project>{a30d52b5-e1a1-398a-2018-eeb81789d773}</Project>
-      <Name>DTT.PublishingTools.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.EditorUtilities.Editor.csproj">
-      <Project>{0e62a2ef-f0a5-a0b3-49cc-22867a02826f}</Project>
-      <Name>DTT.EditorUtilities.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Elringus.Naninovel.Editor.csproj">
-      <Project>{d093a383-22f0-62b7-cca1-dd1d9981cd49}</Project>
-      <Name>Elringus.Naninovel.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.MinigameBase.Runtime.csproj">
-      <Project>{8bf3d9cf-36e5-4a1e-6c8b-008c2c36f139}</Project>
-      <Name>DTT.MinigameBase.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.RuntimeUtilities.Demo.csproj">
-      <Project>{a99e272c-437a-8356-c472-8fab26d8a652}</Project>
-      <Name>DTT.RuntimeUtilities.Demo</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.MinigameMemory.Demo.csproj">
-      <Project>{9599d9ff-bb96-c2de-0add-217f6e1a7fe8}</Project>
-      <Name>DTT.MinigameMemory.Demo</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTT.Minigame-Memory.Runtime.csproj">
-      <Project>{3f476bc7-2cca-82d8-86c8-91e603444e4b}</Project>
-      <Name>DTT.Minigame-Memory.Runtime</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

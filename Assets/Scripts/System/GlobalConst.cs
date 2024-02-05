@@ -30,5 +30,9 @@ namespace System
         public const int CoinsM = 10000000;
         public const int CoinsDivisorK = 1000;
         public const int CoinsDivisorM = 1000000;
+
+        [Header("Advertising")]
+        public const int MaxCounterScrolls = 5;
+        public const int MinCounterScrolls = 1;
     }
 }

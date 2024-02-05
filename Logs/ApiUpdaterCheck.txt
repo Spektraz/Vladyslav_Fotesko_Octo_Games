@@ -28,3 +28,137 @@ C# parse time         : 460ms
 candidates check time : 38ms
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 05.02.2024 17:29:48 : Starting D:/Unity/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from D:\UnityProject\Veles_Helper\Fotesko_Vladyslav_OCTO_Games\Library\ScriptAssemblies\DTT.EditorUtilities.Demo.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <68bff7873e0e4aa69a14dfc30bebbe3e>:0 
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from D:\UnityProject\Veles_Helper\Fotesko_Vladyslav_OCTO_Games\Library\ScriptAssemblies\DTT.Minigame-Memory.Editor.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <68bff7873e0e4aa69a14dfc30bebbe3e>:0 
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from D:\UnityProject\Veles_Helper\Fotesko_Vladyslav_OCTO_Games\Library\ScriptAssemblies\Elringus.Naninovel.Editor.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <68bff7873e0e4aa69a14dfc30bebbe3e>:0 
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from D:\UnityProject\Veles_Helper\Fotesko_Vladyslav_OCTO_Games\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <68bff7873e0e4aa69a14dfc30bebbe3e>:0 
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 29,3633ms
+moved types parse time: 25ms
+candidates parse time : 0ms
+C# parse time         : 157ms
+candidates check time : 15ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 05.02.2024 17:30:16 : Starting D:/Unity/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 28,5077ms
+moved types parse time: 25ms
+candidates parse time : 0ms
+C# parse time         : 92ms
+candidates check time : 16ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 05.02.2024 17:30:40 : Starting D:/Unity/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 26,5077ms
+moved types parse time: 25ms
+candidates parse time : 0ms
+C# parse time         : 89ms
+candidates check time : 14ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 05.02.2024 17:31:18 : Starting D:/Unity/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 28,5995ms
+moved types parse time: 26ms
+candidates parse time : 0ms
+C# parse time         : 91ms
+candidates check time : 28ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 05.02.2024 17:32:13 : Starting D:/Unity/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 28,0134ms
+moved types parse time: 26ms
+candidates parse time : 0ms
+C# parse time         : 82ms
+candidates check time : 11ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 05.02.2024 18:02:39 : Starting D:/Unity/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 28,0086ms
+moved types parse time: 25ms
+candidates parse time : 0ms
+C# parse time         : 90ms
+candidates check time : 15ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 05.02.2024 18:03:01 : Starting D:/Unity/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 28,0088ms
+moved types parse time: 27ms
+candidates parse time : 0ms
+C# parse time         : 90ms
+candidates check time : 14ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 05.02.2024 18:06:35 : Starting D:/Unity/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 27,2441ms
+moved types parse time: 25ms
+candidates parse time : 0ms
+C# parse time         : 90ms
+candidates check time : 15ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 05.02.2024 18:06:59 : Starting D:/Unity/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 27,0121ms
+moved types parse time: 25ms
+candidates parse time : 0ms
+C# parse time         : 89ms
+candidates check time : 14ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 05.02.2024 18:07:33 : Starting D:/Unity/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 28,6054ms
+moved types parse time: 25ms
+candidates parse time : 0ms
+C# parse time         : 88ms
+candidates check time : 15ms
+console write time    : 0ms
+

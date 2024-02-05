@@ -10,41 +10,21 @@ namespace System
             var temp = OnSwitchAudioEvent;
             temp?.Invoke(state);
         }
-          public Action<TimeSpan, Action> OnStartTimeEvent;
-        public void OnStartTime(TimeSpan span, Action action)
-        {
-            var temp = OnStartTimeEvent;
-            temp?.Invoke(span, action);
-        }
-        public Action<TimeSpan> OnTimeTickEvent;
 
-        public void OnTimeTick(TimeSpan span)
+        public Action<int> OnSwitchAdvertisingEvent;
+        public void OnSwitchAdvertising(int count)
         {
-            var temp = OnTimeTickEvent;
-            temp?.Invoke(span);
-        }
-
-        public Action<bool> OnIngamePanelElementsMoveEvent;
-        
-        public Action<int> OnLooseAnswerEvent;
-        public void OnLooseAnswer(int count)
-        {
-            var temp = OnLooseAnswerEvent;
+            var temp = OnSwitchAdvertisingEvent;
             temp?.Invoke(count);
         }
-        public Action<bool> OnFinishGameEvent;
-        public void OnFinishGame(bool state)
+        public Action<bool> OnStateAdvertisingEvent;
+        public void OnStateAdvertising(bool count)
         {
-            var temp = OnFinishGameEvent;
-            temp?.Invoke(state);
+            var temp = OnStateAdvertisingEvent;
+            temp?.Invoke(count);
         }
-        public Action<bool> OnCloseQuestionWindowEvent;
-        public void OnCloseQuestionWindow(bool state)
-        {
-            var temp = OnCloseQuestionWindowEvent;
-            temp?.Invoke(state);
-        }
-        
+
+
 #if true
         public Action<IWindow> OnChangeStateWindowEvent;
 
@@ -56,14 +36,7 @@ namespace System
                 temp(window);
             }
         }
-        public void IngamePanelElementsMove(bool isHide)
-        {
-            var temp = OnIngamePanelElementsMoveEvent;
-            if (temp != null)
-            {
-                temp(isHide);
-            }
-        }
+      
         public Action<IWindow, bool> OnWindowCloseEvent;
 
         public void OnWindowClose(IWindow window, bool isShowPanel = true)

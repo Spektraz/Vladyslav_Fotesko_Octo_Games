@@ -1,5 +1,4 @@
 using System;
-using Name;
 using Save;
 using Random = UnityEngine.Random;
 
@@ -9,7 +8,7 @@ namespace MainGame
     {
         private WheelFortuneModel m_viewModel = null;
         private CoinsController m_controller = null;
-   
+        private int m_counterScrools = 0;
         public WheelFortuneController(WheelFortuneModel viewModel)
         {
             m_viewModel = viewModel;
@@ -18,8 +17,14 @@ namespace MainGame
         public void Initialize()
         {
             InitializeButtons();
-          
+            InitializeEvents();
         }
+
+        private void InitializeEvents()
+        {
+            ApplicationContainer.Instance.EventHolder.OnStateAdvertisingEvent += GoodResultAdvertising;
+        }
+
         private void InitializeButtons()
         {
             m_viewModel.StartWheel.onClick.AddListener(PlayFortune);
@@ -35,11 +40,21 @@ namespace MainGame
 
         private void PlayFortune()
         {
+            if (m_counterScrools == GlobalConst.MaxCounterScrolls)
+            {
+                ApplicationContainer.Instance.EventHolder.OnSwitchAdvertisingEvent(m_counterScrools);
+              
+            }
             RandomizerNumbers();
             m_viewModel.AnimatorWheel.SetTrigger(GlobalConst.WheelTrigger);
             m_viewModel.EventSystem.enabled = false;
+            m_counterScrools++;
         }
 
+        private void GoodResultAdvertising(bool state)
+        {
+            m_counterScrools = state ? GlobalConst.MinCounterScrolls : GlobalConst.MaxCounterScrolls;
+        }
         public void Result()
         {
             Save(m_viewModel.Numbers[GlobalConst.WinCoins].text);
