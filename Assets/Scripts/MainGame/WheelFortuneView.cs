@@ -16,6 +16,10 @@ namespace MainGame
         {
             m_controller.Result();
         }
+        public void Result(int changeCoins)
+        {
+            m_controller.Result(changeCoins);
+        }
         private void OnDestroy()
         {
             m_controller.Dispose();

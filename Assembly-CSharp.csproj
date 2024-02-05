@@ -27,7 +27,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_19;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;PUBLISHING_TOOLS_ASSET_STORE_RELEASE;MINIGAME_-_MEMORY_ASSET_STORE_RELEASE;TextMeshPro;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_19;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TextMeshPro;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn></NoWarn>
@@ -52,29 +52,59 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Adjust\Unity\AdjustEventSuccess.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_SpriteRenderer.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSourceData.cs" />
      <Compile Include="Assets\Adjust\Unity\AdjustSessionSuccess.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Manager\LocalizationManager_Targets.cs" />
+     <Compile Include="Assets\Adjust\Unity\AdjustLogLevel.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Terms.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Google\TranslationJob_WEB.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Targets\ILocalizeTargetDesc.cs" />
      <Compile Include="Assets\Adjust\Unity\AdjustSessionFailure.cs" />
      <Compile Include="Assets\Scripts\Name\ShowNameView.cs" />
+     <Compile Include="Assets\Scripts\StartGame\StartGameView.cs" />
      <Compile Include="Assets\Adjust\Unity\AdjustEventFailure.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityUI_Image.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Utils\RTLFixer.cs" />
+     <Compile Include="Assets\Adjust\Unity\AdjustEvent.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_SVGImporter_Image.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Google\TranslationJob_POST.cs" />
+     <Compile Include="Assets\Scripts\System\EventHolder.cs" />
+     <Compile Include="Assets\Scripts\MainGame\WheelFortuneModel.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Import_CSV.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\LanguageData.cs" />
+     <Compile Include="Assets\Scripts\System\Singleton.cs" />
      <Compile Include="Assets\Adjust\Unity\AdjustUtils.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Export_Google.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Utils\ResourceManager.cs" />
      <Compile Include="Assets\Scripts\Utils\StringUtils.cs" />
+     <Compile Include="Assets\Adjust\Unity\AdjustAttribution.cs" />
      <Compile Include="Assets\Scripts\Audio\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Advertisement\AdvertisingModel.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Configurables\SpecializationManager.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Google\TranslationJob.cs" />
+     <Compile Include="Assets\Scripts\Advertisement\AdvertisingContoller.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_2DToolKit_Label.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Languages.cs" />
+     <Compile Include="Assets\Scripts\MainGame\WheelFortuneView.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Google\TranslationJob_Main.cs" />
      <Compile Include="Assets\Scripts\Ui\Panel\IPanel.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Utils\StringObfuscator.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Utils\LocalizationParamsManager.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Utils\CoroutineManager.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\EventCallback.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSourceAsset.cs" />
+     <Compile Include="Assets\Adjust\iOS\AdjustiOS.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Utils\SetLanguage.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Manager\LocalizationManager_Translation.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_Child.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Utils\CustomLocalizeCallback.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_TextMesh.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Utils\AutoChangeCultureInfo.cs" />
      <Compile Include="Assets\Adjust\Unity\Adjust.cs" />
+     <Compile Include="Assets\Scripts\Utils\AdvertisementUtils.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Google\GoogleTranslation_Queries.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityUI_RawImage.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Manager\LocalizationManager_RTL.cs" />
      <Compile Include="Assets\Scripts\System\ApplicationContainer.cs" />
@@ -82,93 +112,67 @@
      <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Export_CSV.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Utils\HindiFixer.cs" />
      <Compile Include="Assets\Adjust\3rd Party\SimpleJSON.cs" />
+     <Compile Include="Assets\Adjust\ExampleGUI\ExampleGUI.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\LocalizationReader.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Utils\I2Utils.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Localize.cs" />
      <Compile Include="Assets\Scripts\Ui\ObjectWindow.cs" />
      <Compile Include="Assets\Scripts\StartGame\StartGameController.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_TextMeshPro_UGUI.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Manager\LocalizationManager.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Manager\LocalizationManager_Parameters.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Google\SimpleJSON.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_NGUI_Label.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_SVGImporter_Renderer.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Utils\RegisterGlobalParameters.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Google\TranslationJob_GET.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_TextMeshPro_Label.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_NGUI_Texture.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Manager\LocalizationManager_Sources.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Assets.cs" />
+     <Compile Include="Assets\Scripts\Ui\IUIElement.cs" />
      <Compile Include="Assets\Scripts\Ui\IWindow.cs" />
      <Compile Include="Assets\Adjust\Unity\AdjustPlayStoreSubscription.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Google\GoogleTranslation_Post.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Import_Google.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_2DToolKit_Sprite.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\LocalizeDropdown.cs" />
      <Compile Include="Assets\Scripts\System\GlobalConst.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityUI_Text.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Targets\ILocalizeTarget.cs" />
      <Compile Include="Assets\Scripts\System\Save\CoinsController.cs" />
      <Compile Include="Assets\Scripts\Name\NameController.cs" />
+     <Compile Include="Assets\Scripts\Advertisement\AdvertisingView.cs" />
      <Compile Include="Assets\Adjust\Unity\AdjustConfig.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\TermData.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_NGUI_Sprite.cs" />
-     <Compile Include="Assets\Adjust\Unity\AdjustEnvironment.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Google\GoogleLanguages.cs" />
-     <Compile Include="Assets\Adjust\Unity\AdjustAppStoreSubscription.cs" />
-     <Compile Include="Assets\Scripts\System\SaveManager.cs" />
-     <Compile Include="Assets\Adjust\Unity\AdjustEventSuccess.cs" />
-     <Compile Include="Assets\Scripts\Utils\Tweaks.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSourceData.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Manager\LocalizationManager_Targets.cs" />
-     <Compile Include="Assets\Adjust\Unity\AdjustLogLevel.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Terms.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Google\TranslationJob_WEB.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Targets\ILocalizeTargetDesc.cs" />
-     <Compile Include="Assets\Scripts\StartGame\StartGameView.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityUI_Image.cs" />
-     <Compile Include="Assets\Adjust\Unity\AdjustEvent.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Utils\RTLFixer.cs" />
-     <Compile Include="Assets\Scripts\System\EventHolder.cs" />
-     <Compile Include="Assets\Scripts\MainGame\WheelFortuneModel.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Import_CSV.cs" />
-     <Compile Include="Assets\Scripts\System\Singleton.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Utils\ResourceManager.cs" />
-     <Compile Include="Assets\Adjust\Unity\AdjustAttribution.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Configurables\SpecializationManager.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_2DToolKit_Label.cs" />
-     <Compile Include="Assets\Scripts\MainGame\WheelFortuneView.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Utils\CoroutineManager.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\EventCallback.cs" />
-     <Compile Include="Assets\Adjust\iOS\AdjustiOS.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_Child.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Utils\CustomLocalizeCallback.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Utils\AutoChangeCultureInfo.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Google\GoogleTranslation_Queries.cs" />
-     <Compile Include="Assets\Adjust\ExampleGUI\ExampleGUI.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Localize.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_TextMeshPro_UGUI.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Manager\LocalizationManager_Parameters.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Google\SimpleJSON.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Utils\RegisterGlobalParameters.cs" />
-     <Compile Include="Assets\Scripts\Utils\Tweaker.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Assets.cs" />
-     <Compile Include="Assets\Scripts\Ui\IUIElement.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Google\GoogleTranslation_Post.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Import_Google.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\LocalizeDropdown.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Targets\ILocalizeTarget.cs" />
      <Compile Include="Assets\Adjust\Android\AdjustAndroid.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_GUITexture.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Manager\LocalizationManager_SystemLanguage.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_NGUI_Sprite.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Utils\SetLanguageDropdown.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Google\GoogleTranslation.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Utils\LocalizedString.cs" />
+     <Compile Include="Assets\Adjust\Unity\AdjustEnvironment.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_Prefab.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_AudioSource.cs" />
      <Compile Include="Assets\Adjust\Windows\AdjustWindows.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Manager\LocalizationManager_Language.cs" />
      <Compile Include="Assets\Scripts\System\DataBase\Models\BuildIfo\BuildInfoModel.cs" />
      <Compile Include="Assets\Scripts\MainGame\WheelFortuneController.cs" />
+     <Compile Include="Assets\I2\Localization\Scripts\Google\GoogleLanguages.cs" />
+     <Compile Include="Assets\Adjust\Unity\AdjustAppStoreSubscription.cs" />
      <Compile Include="Assets\Adjust\Unity\AdjustThirdPartySharing.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_GUIText.cs" />
+     <Compile Include="Assets\Scripts\System\SaveManager.cs" />
      <Compile Include="Assets\Scripts\Audio\AudioSwitch.cs" />
      <Compile Include="Assets\Scripts\StartGame\StartGameModel.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Configurables\PersistentStorage.cs" />
-     <Compile Include="Assets\Scripts\Advertisement\AdvertisingContoller.cs" />
-     <Compile Include="Assets\Scripts\Advertisement\AdvertisingView.cs" />
-     <Compile Include="Assets\Scripts\Advertisement\AdvertisingModel.cs" />
+     <Compile Include="Assets\Ayet\SdkDeductCallback.cs" />
+     <Compile Include="Assets\Ayet\AyetSdk.cs" />
+     <Compile Include="Assets\Ayet\DeductUserBalanceCallbackProxy.cs" />
+     <Compile Include="Assets\Ayet\SdkUserBalance.cs" />
+     <Compile Include="Assets\Ayet\UserBalanceProxy.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Adjust\Android\AdjustAndroidManifest.xml" />
@@ -218,12 +222,6 @@
  </Reference>
  <Reference Include="UnityEngine.ClothModule">
  <HintPath>D:/Unity/2020.3.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ClusterInputModule">
- <HintPath>D:/Unity/2020.3.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ClusterRendererModule">
- <HintPath>D:/Unity/2020.3.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>D:/Unity/2020.3.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
@@ -377,9 +375,6 @@
  </Reference>
  <Reference Include="UnityEngine.VideoModule">
  <HintPath>D:/Unity/2020.3.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VirtualTexturingModule">
- <HintPath>D:/Unity/2020.3.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.WindModule">
  <HintPath>D:/Unity/2020.3.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
@@ -813,6 +808,9 @@
  <Reference Include="Unity.2D.IK.Editor">
  <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.2D.Psdimporter.Editor">
  <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
  </Reference>
@@ -821,9 +819,6 @@
  </Reference>
  <Reference Include="Unity.InternalAPIEditorBridge.001">
  <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/UnityProject/Veles_Helper/Fotesko_Vladyslav_OCTO_Games/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>

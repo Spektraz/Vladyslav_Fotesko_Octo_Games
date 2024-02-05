@@ -36,19 +36,26 @@ namespace MainGame
         public void Dispose()
         {
             DisposeButtons();
+            DisposeEvents();
         }
-
+        private void DisposeEvents()
+        {
+            ApplicationContainer.Instance.EventHolder.OnStateAdvertisingEvent -= GoodResultAdvertising;
+        }
         private void PlayFortune()
         {
             if (m_counterScrools == GlobalConst.MaxCounterScrolls)
             {
-                ApplicationContainer.Instance.EventHolder.OnSwitchAdvertisingEvent(m_counterScrools);
-              
+                ApplicationContainer.Instance.EventHolder.OnSwitchAdvertisingEvent(true);
+                
             }
-            RandomizerNumbers();
-            m_viewModel.AnimatorWheel.SetTrigger(GlobalConst.WheelTrigger);
-            m_viewModel.EventSystem.enabled = false;
-            m_counterScrools++;
+            else
+            {
+                RandomizerNumbers();
+                m_viewModel.AnimatorWheel.SetTrigger(GlobalConst.WheelTrigger);
+                m_viewModel.EventSystem.enabled = false;
+                ++m_counterScrools;
+            }
         }
 
         private void GoodResultAdvertising(bool state)
@@ -60,6 +67,11 @@ namespace MainGame
             Save(m_viewModel.Numbers[GlobalConst.WinCoins].text);
             m_viewModel.EventSystem.enabled = true;
         }
+        public void Result(int changeCoins)
+        {
+            Save(changeCoins.ToString());
+            m_viewModel.EventSystem.enabled = true;
+        }
         private void Check()
         {
             m_controller ??= new CoinsController();
@@ -68,6 +80,7 @@ namespace MainGame
             else
                 m_viewModel.Coins.text = "0";
         }
+        
         private void Save(string coins)
         {
             m_controller.SaveCoins(coins);

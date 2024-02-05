@@ -32,7 +32,7 @@ namespace System
         public const int CoinsDivisorM = 1000000;
 
         [Header("Advertising")]
-        public const int MaxCounterScrolls = 5;
+        public const int MaxCounterScrolls = 2;
         public const int MinCounterScrolls = 1;
     }
 }

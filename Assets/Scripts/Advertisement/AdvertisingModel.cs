@@ -10,7 +10,7 @@ namespace Advertisement
         [Header("Buttons")] 
         [SerializeField] private Button m_closeButton;
         [SerializeField] private Button m_advertisingButton;
-
+        
         [Header("Canvas")] [SerializeField]
         private Canvas m_advertisingCanvas;
         public Button CloseButton => m_closeButton;

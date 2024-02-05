@@ -11,8 +11,8 @@ namespace System
             temp?.Invoke(state);
         }
 
-        public Action<int> OnSwitchAdvertisingEvent;
-        public void OnSwitchAdvertising(int count)
+        public Action<bool> OnSwitchAdvertisingEvent;
+        public void OnSwitchAdvertising(bool count)
         {
             var temp = OnSwitchAdvertisingEvent;
             temp?.Invoke(count);
