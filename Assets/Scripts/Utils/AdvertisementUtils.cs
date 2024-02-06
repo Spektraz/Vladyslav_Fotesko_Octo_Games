@@ -34,7 +34,7 @@ namespace Utils
         #endif
             
         #if UNITY_ANDROID
-            AyetSdk.init ("1818ff9901debda6632887e2539b57df", "1", this);
+            AyetSdk.init ("700d3c346cf8bc802465980ce5728ddc", "1", this);
         #endif
           
         }

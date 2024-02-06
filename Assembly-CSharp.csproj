@@ -61,6 +61,7 @@
      <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Terms.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Google\TranslationJob_WEB.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\ILocalizeTargetDesc.cs" />
+     <Compile Include="Assets\Ayet\DeductUserBalanceCallbackProxy.cs" />
      <Compile Include="Assets\Adjust\Unity\AdjustSessionFailure.cs" />
      <Compile Include="Assets\Scripts\Name\ShowNameView.cs" />
      <Compile Include="Assets\Scripts\StartGame\StartGameView.cs" />
@@ -82,6 +83,7 @@
      <Compile Include="Assets\Adjust\Unity\AdjustAttribution.cs" />
      <Compile Include="Assets\Scripts\Audio\AudioManager.cs" />
      <Compile Include="Assets\Scripts\Advertisement\AdvertisingModel.cs" />
+     <Compile Include="Assets\Ayet\SdkDeductCallback.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Configurables\SpecializationManager.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Google\TranslationJob.cs" />
      <Compile Include="Assets\Scripts\Advertisement\AdvertisingContoller.cs" />
@@ -95,6 +97,7 @@
      <Compile Include="Assets\I2\Localization\Scripts\Utils\CoroutineManager.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\EventCallback.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSourceAsset.cs" />
+     <Compile Include="Assets\Ayet\SdkUserBalance.cs" />
      <Compile Include="Assets\Adjust\iOS\AdjustiOS.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Utils\SetLanguage.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Manager\LocalizationManager_Translation.cs" />
@@ -110,6 +113,7 @@
      <Compile Include="Assets\Scripts\System\ApplicationContainer.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Misc.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Export_CSV.cs" />
+     <Compile Include="Assets\Ayet\UserBalanceProxy.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Utils\HindiFixer.cs" />
      <Compile Include="Assets\Adjust\3rd Party\SimpleJSON.cs" />
      <Compile Include="Assets\Adjust\ExampleGUI\ExampleGUI.cs" />
@@ -127,6 +131,7 @@
      <Compile Include="Assets\I2\Localization\Scripts\Utils\RegisterGlobalParameters.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Google\TranslationJob_GET.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_TextMeshPro_Label.cs" />
+     <Compile Include="Assets\Ayet\AyetSdk.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Targets\LocalizeTarget_NGUI_Texture.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Manager\LocalizationManager_Sources.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\LanguageSource\LanguageSource_Assets.cs" />
@@ -168,11 +173,6 @@
      <Compile Include="Assets\Scripts\Audio\AudioSwitch.cs" />
      <Compile Include="Assets\Scripts\StartGame\StartGameModel.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Configurables\PersistentStorage.cs" />
-     <Compile Include="Assets\Ayet\SdkDeductCallback.cs" />
-     <Compile Include="Assets\Ayet\AyetSdk.cs" />
-     <Compile Include="Assets\Ayet\DeductUserBalanceCallbackProxy.cs" />
-     <Compile Include="Assets\Ayet\SdkUserBalance.cs" />
-     <Compile Include="Assets\Ayet\UserBalanceProxy.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Adjust\Android\AdjustAndroidManifest.xml" />

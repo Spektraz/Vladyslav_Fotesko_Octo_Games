@@ -5,7 +5,6 @@ ScriptsOnlyBuild:
     - Advertisement.AdvertisingView
     - Audio.AudioManager
     - Audio.AudioSwitch
-    - I2.Loc.CoroutineManager
     - I2.Loc.LanguageSourceAsset
     - I2.Loc.Localize
     - I2.Loc.LocalizeTarget_TextMeshPro_UGUI
@@ -20,7 +19,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -39,9 +37,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
-    - TimelineProjectSettings
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -97,41 +92,41 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1616}
+      Script: {instanceID: 1618}
     - Class: 114
-      Script: {instanceID: 1622}
+      Script: {instanceID: 1624}
     - Class: 114
-      Script: {instanceID: 2042}
+      Script: {instanceID: 2044}
     - Class: 114
-      Script: {instanceID: 2208}
+      Script: {instanceID: 2216}
     - Class: 114
-      Script: {instanceID: 2654}
+      Script: {instanceID: 2662}
     - Class: 114
-      Script: {instanceID: 2748}
+      Script: {instanceID: 2758}
     - Class: 114
-      Script: {instanceID: 2756}
+      Script: {instanceID: 2766}
     - Class: 114
-      Script: {instanceID: 2998}
+      Script: {instanceID: 3010}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 3100}
     - Class: 114
-      Script: {instanceID: 3192}
+      Script: {instanceID: 3204}
     - Class: 114
-      Script: {instanceID: 3258}
+      Script: {instanceID: 3270}
     - Class: 114
-      Script: {instanceID: 3736}
+      Script: {instanceID: 3748}
     - Class: 114
-      Script: {instanceID: 3816}
+      Script: {instanceID: 3828}
     - Class: 114
-      Script: {instanceID: 3874}
+      Script: {instanceID: 3886}
     - Class: 114
-      Script: {instanceID: 4434}
+      Script: {instanceID: 4448}
     - Class: 114
-      Script: {instanceID: 4522}
+      Script: {instanceID: 4536}
     - Class: 114
-      Script: {instanceID: 5662}
+      Script: {instanceID: 5678}
     - Class: 114
-      Script: {instanceID: 6466}
+      Script: {instanceID: 6482}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -178,8 +173,6 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1614}
-    - Class: 114
       Script: {instanceID: 1616}
     - Class: 114
       Script: {instanceID: 1618}
@@ -188,67 +181,69 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 1722}
+      Script: {instanceID: 1624}
     - Class: 114
-      Script: {instanceID: 1846}
+      Script: {instanceID: 1724}
     - Class: 114
-      Script: {instanceID: 1910}
+      Script: {instanceID: 1848}
     - Class: 114
-      Script: {instanceID: 2042}
+      Script: {instanceID: 1912}
     - Class: 114
-      Script: {instanceID: 2208}
+      Script: {instanceID: 2044}
     - Class: 114
-      Script: {instanceID: 2246}
+      Script: {instanceID: 2216}
     - Class: 114
-      Script: {instanceID: 2498}
+      Script: {instanceID: 2254}
     - Class: 114
-      Script: {instanceID: 2654}
+      Script: {instanceID: 2506}
     - Class: 114
-      Script: {instanceID: 2748}
+      Script: {instanceID: 2662}
     - Class: 114
-      Script: {instanceID: 2998}
+      Script: {instanceID: 2758}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 3010}
     - Class: 114
-      Script: {instanceID: 3192}
+      Script: {instanceID: 3100}
     - Class: 114
-      Script: {instanceID: 3258}
+      Script: {instanceID: 3204}
     - Class: 114
-      Script: {instanceID: 3304}
+      Script: {instanceID: 3270}
     - Class: 114
-      Script: {instanceID: 3736}
+      Script: {instanceID: 3316}
     - Class: 114
-      Script: {instanceID: 3752}
+      Script: {instanceID: 3748}
     - Class: 114
-      Script: {instanceID: 3874}
+      Script: {instanceID: 3764}
     - Class: 114
-      Script: {instanceID: 4220}
+      Script: {instanceID: 3886}
     - Class: 114
-      Script: {instanceID: 4434}
+      Script: {instanceID: 4234}
     - Class: 114
-      Script: {instanceID: 4522}
+      Script: {instanceID: 4448}
     - Class: 114
-      Script: {instanceID: 5082}
+      Script: {instanceID: 4536}
     - Class: 114
-      Script: {instanceID: 5444}
+      Script: {instanceID: 5098}
     - Class: 114
-      Script: {instanceID: 5474}
+      Script: {instanceID: 5460}
     - Class: 114
-      Script: {instanceID: 5926}
+      Script: {instanceID: 5490}
     - Class: 114
-      Script: {instanceID: 6466}
+      Script: {instanceID: 5942}
     - Class: 114
-      Script: {instanceID: 6502}
+      Script: {instanceID: 6482}
     - Class: 114
-      Script: {instanceID: 26268}
+      Script: {instanceID: 6518}
     - Class: 114
-      Script: {instanceID: 26292}
+      Script: {instanceID: 20258}
     - Class: 114
-      Script: {instanceID: 27134}
+      Script: {instanceID: 20282}
     - Class: 114
-      Script: {instanceID: 31070}
+      Script: {instanceID: 21124}
     - Class: 114
-      Script: {instanceID: 32068}
+      Script: {instanceID: 25060}
+    - Class: 114
+      Script: {instanceID: 26298}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1032,4 +1027,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/StartGame.unity
   - Assets/Scenes/FirstLocal.unity
-  playerPath: D:/UnityProject/Build/Fotesko_Test.apk
+  playerPath: D:/UnityProject/Build/Fotesko_Test_2.apk

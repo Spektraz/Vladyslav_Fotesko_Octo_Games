@@ -53,6 +53,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\I2\Localization\Scripts\Editor\PostProcessBuild_UnloadLanguages.cs" />
+     <Compile Include="Assets\Editor\AyeTPostInstall.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LocalizeInspector.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Editor\EditorTools.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LanguageSourceInspector.cs" />
@@ -83,7 +84,6 @@
      <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LocalizeDropdownInspector.cs" />
      <Compile Include="Assets\Adjust\Editor\AdjustEditor.cs" />
      <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_MergeTerms.cs" />
-     <Compile Include="Assets\Editor\AyeTPostInstall.cs" />
      <None Include="Assets\I2\Localization\Scripts\Editor\Unity XCode\Xcode.txt" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Unity/2020.3.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
